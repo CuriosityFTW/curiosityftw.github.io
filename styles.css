@@ -31,7 +31,6 @@ header h1 {
 
 header p {
     font-size: 1.2em;
-    font-family: 'Playfair Display';
 }
 
 /* Main Section Styles */
@@ -55,6 +54,7 @@ main {
 
 .content p {
     font-size: 1.2em;
+    font-family: 'Playfair Display';
     margin-bottom: 20px;
 }
 
