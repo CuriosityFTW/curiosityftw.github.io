@@ -58,12 +58,12 @@ main {
 .content p {
     font-size: 1em;
     margin-bottom: 20px;
+    align-items: center;    
 }
 
 .content img {
     width: 50%;
     height: auto;
-    align-items: center;
 }
 
 .content ul {
