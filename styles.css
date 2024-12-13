@@ -63,6 +63,7 @@ main {
 .content img {
     width: 50%;
     height: auto;
+    vertical-align: middle;
 }
 
 .content ul {
