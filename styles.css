@@ -46,6 +46,7 @@ main {
     margin-bottom: 30px;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    align-items: center;    
 }
 
 .content h2 {
@@ -58,7 +59,6 @@ main {
 .content p {
     font-size: 1em;
     margin-bottom: 20px;
-    align-items: center;    
 }
 
 .content img {
