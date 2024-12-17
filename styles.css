@@ -65,6 +65,8 @@ main {
 }
 
 .content img {
+    display: block;
+    margin: auto;
     width: 50%;
     height: auto;
 }
