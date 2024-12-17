@@ -75,12 +75,13 @@ main {
 
 .content ul li {
     margin: 10px 0;
+    text-align: center;
 }
 
 .content a {
     color: blue;
     text-decoration: none;
-    text-align: center;
+    /*text-align: center;*/
 }
 
 .content a:hover {
