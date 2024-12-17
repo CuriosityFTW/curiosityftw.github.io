@@ -38,16 +38,17 @@ header p {
 main {
     max-width: 900px;
     margin: 40px auto;
+    align-items: center;
 }
 
 .content {
-    display: flex;
+    /*display: flex;*/
     background-color: white;
     padding: 20px;
     margin-bottom: 30px;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    align-items: center;
+    /*align-items: center;*/
     /*justify-content: center;*/
     /*height: 100vh;*/
 }
