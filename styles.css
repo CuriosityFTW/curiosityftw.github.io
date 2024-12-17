@@ -38,7 +38,6 @@ header p {
 main {
     max-width: 900px;
     margin: 40px auto;
-    align-items: center;
 }
 
 .content {
@@ -81,6 +80,7 @@ main {
 .content a {
     color: blue;
     text-decoration: none;
+    text-align: center;
 }
 
 .content a:hover {
