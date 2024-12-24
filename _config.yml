@@ -1,0 +1,19 @@
+title: CuriosityFTW
+description: >- # Write your site description
+  A website to showcase curiosity and innovation.
+baseurl: "" # Keep this empty for user.github.io websites
+url: "https://curiosityftw.github.io"
+theme: jekyll-theme-minimal # Replace with your chosen theme
+
+# Optional metadata
+author: 
+  name: Aditya Shekhar Kumar
+  email: adityashekharkumar@gmail.com
+
+# Plugins (Optional)
+#plugins:
+ # - jekyll-seo-tag
+  #- jekyll-sitemap
+
+# Markdown settings
+markdown: kramdown
