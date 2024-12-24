@@ -33,7 +33,7 @@ header {
 }*/
 
 header img {
-    height: 20%;
+    max-height: 200px;
     width: auto;
     border-radius: 50%;
     /*margin-left: 300px;*/
