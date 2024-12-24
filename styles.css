@@ -27,26 +27,31 @@ header {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-header img {
+.header_items {
+    display: flex;
+    align-items: center;
+}
+
+.header_items img {
     width: 200px;
     height: 200px;
     border-radius: 50%;
-    margin-left: 300px;
+    /*margin-left: 300px;*/
     padding: 20px;
 }
 
-.header_text {
+/*.header_items .header_text {
     margin-right: 50px;
-}
+}*/
 
-.header_text h1 {
+.header_items .header_text h1 {
     text-align: center;
     font-size: 2.5em;
     font-family: 'Playfair Display';
     margin-bottom: 10px;
 }
 
-.header_text p {
+.header_items .header_text p {
     text-align: center;
     font-size: 1.2em;
     /*padding: 20px;*/
