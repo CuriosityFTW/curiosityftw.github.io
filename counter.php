@@ -18,6 +18,7 @@ if (file_put_contents($file, $count) === false) {
     echo "Error: Unable to write to the counter file.";
 } else {
     // Display the visitor count
-    echo $count;
+    /*echo $count;*/
+    echo "Debug: " . $count;
 }
 ?>
