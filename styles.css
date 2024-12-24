@@ -36,7 +36,7 @@ header img {
 }
 
 .header_text {
-    align-items: center;
+    margin: auto;
 }
 
 .header_text h1 {
