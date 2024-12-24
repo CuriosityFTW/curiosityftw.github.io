@@ -16,7 +16,7 @@ body {
 /* Header Styles */
 header {
     display: flex;
-    /*gap: 50px;*/
+    gap: 50px;
     /*justify-content: space-between;*/
     background-color: blue;
     color: white;
@@ -31,12 +31,12 @@ header img {
     width: 200px;
     height: 200px;
     border-radius: 50%;
-    /*margin-right: 15px;*/
+    margin-left: 50px;
     padding: 20px;
 }
 
 .header_text {
-    margin: auto;
+    margin-right: 50px;
 }
 
 .header_text h1 {
