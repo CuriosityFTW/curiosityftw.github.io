@@ -15,9 +15,11 @@ body {
 
 /* Header Styles */
 header {
+    display: flex;
+    justify-content: space-between;
     background-color: blue;
     color: white;
-    text-align: left;
+    align-items: center;
     padding: 50px 20px;
     border-radius: 8px;
     margin-top: 10px;
@@ -32,12 +34,14 @@ header img {
 }
 
 header h1 {
+    text-align: center;
     font-size: 2.5em;
     font-family: 'Playfair Display';
     margin-bottom: 10px;
 }
 
 header p {
+    text-align: center;
     font-size: 1.2em;
 }
 
