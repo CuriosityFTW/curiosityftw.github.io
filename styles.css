@@ -15,8 +15,8 @@ body {
 
 /* Header Styles */
 header {
-    /*display: flex;*/
-    /*justify-content: space-between;*/
+    display: flex;
+    justify-content: space-between;
     background-color: blue;
     color: white;
     /*align-items: center;*/
