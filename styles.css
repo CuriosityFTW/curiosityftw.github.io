@@ -15,7 +15,7 @@ body {
 
 /* Header Styles */
 header {
-    display: flex;
+    /*display: flex;*/
     /*justify-content: space-between;*/
     background-color: blue;
     color: white;
