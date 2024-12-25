@@ -61,13 +61,14 @@ header img {
 .header_text h1 {
     text-align: center;
     font-size: 2.5em;
-    font-family: 'Audrey-Medium';
+    font-family: 'Roboto';
     margin-bottom: 10px;
 }
 
 .header_text p {
     text-align: center;
-    font-family: 'Audrey-NormalOblique';
+    font-family: 'Roboto';
+    font-style: italic;
     font-size: 1.2em;
     /*padding: 20px;*/
 }
