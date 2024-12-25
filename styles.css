@@ -100,7 +100,8 @@ main {
 .content {
     /*display: flex;*/
     /*background-color: white;*/
-    background: linear-gradient(rgba(0, 0, 255, 0.8), rgba(255, 255, 255, 0.8));
+    /*background: linear-gradient(rgba(0, 0, 255, 0.8), rgba(255, 255, 255, 0.8));*/
+    background: linear-gradient(to bottom, #0a103b, #1d2977, #8693d6, #d5e4ff);
     padding: 20px;
     margin-bottom: 30px;
     border-radius: 8px;
@@ -111,14 +112,14 @@ main {
 }
 
 .content h2 {
-    font-size: 1.8em;
+    font-size: 2em;
     text-align: center;
     font-family: 'Lato-Regular';
     margin-bottom: 10px;
 }
 
 .content p {
-    font-size: 1em;
+    font-size: 1.5em;
     font-family: 'Helvetica';
     font-style: bold;
     margin-bottom: 20px;
@@ -137,6 +138,7 @@ main {
 
 .content ul li {
     margin: 10px 0;
+    font-size: 1.5em;
     font-family: 'Helvetica';
     font-style: bold;
     text-align: center;
