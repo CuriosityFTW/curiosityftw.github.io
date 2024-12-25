@@ -99,7 +99,8 @@ main {
 
 .content {
     /*display: flex;*/
-    background-color: white;
+    /*background-color: white;*/
+    background: linear-gradient(rgba(255, 255, 255, 0.3), rgba(0, 0, 255, 0.3));
     padding: 20px;
     margin-bottom: 30px;
     border-radius: 8px;
