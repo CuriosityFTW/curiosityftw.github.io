@@ -3,7 +3,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    width: 100%;
 }
 
 @font-face {
@@ -41,6 +40,7 @@ body {
 
 /* Header Styles */
 header {
+    width: 100%;
     display: flex;
     /*gap: 50px;*/
     justify-content: center;
@@ -94,7 +94,8 @@ header img {
 
 /* Main Section Styles */
 main {
-    max-width: 900px;
+    /*max-width: 900px;*/
+    width: 100%;
     margin: 40px auto;
 }
 
