@@ -23,6 +23,7 @@ header {
     /*background-image: url('images/header_image.jpg');*/
     background-size: cover;
     background-position: center;
+    height: 500px;
     color: white;
     align-items: center;
     /*padding: 50px 20px;*/
