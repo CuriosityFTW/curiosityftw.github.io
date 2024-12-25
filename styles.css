@@ -31,7 +31,7 @@
 }
 
 body {
-    font-family: 'Arial', sans-serif;
+    /*font-family: 'Helvetica';*/
     background-color: #f7f7f7;
     color: #333;
     line-height: 1.6;
@@ -100,7 +100,7 @@ main {
 .content {
     /*display: flex;*/
     /*background-color: white;*/
-    background: linear-gradient(rgba(255, 255, 255, 0.3), rgba(0, 0, 255, 0.3));
+    background: linear-gradient(rgba(0, 0, 255, 0.5), rgba(255, 255, 255, 0.5));
     padding: 20px;
     margin-bottom: 30px;
     border-radius: 8px;
@@ -113,12 +113,13 @@ main {
 .content h2 {
     font-size: 1.8em;
     text-align: center;
-    font-family: 'Playfair Display';
+    font-family: 'Lato-Regular';
     margin-bottom: 10px;
 }
 
 .content p {
     font-size: 1em;
+    font-family: 'Helvetica';
     margin-bottom: 20px;
 }
 
