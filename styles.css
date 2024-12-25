@@ -5,6 +5,11 @@
     box-sizing: border-box;
 }
 
+@font-face {
+    font-family: 'Audrey';
+    src: url('fonts/Audrey 1.0/Audrey 1.0/Audrey-Medium.otf') format('opentype');
+}
+
 body {
     font-family: 'Arial', sans-serif;
     background-color: #f7f7f7;
@@ -52,7 +57,7 @@ header img {
 .header_text h1 {
     text-align: center;
     font-size: 2.5em;
-    font-family: 'Playfair Display';
+    font-family: 'Audrey';
     margin-bottom: 10px;
 }
 
