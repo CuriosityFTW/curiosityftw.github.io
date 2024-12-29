@@ -110,6 +110,12 @@ section {
     flex: 1;
 }
 
+.gradient-text {
+    background: linear-gradient(to right, blue, purple, pink, red, orange);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
 .about_me {
     /*display: flex;*/
     /*background-color: white;*/
