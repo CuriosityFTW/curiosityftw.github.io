@@ -106,7 +106,7 @@ main {
     background: linear-gradient(to bottom, #0a103b, #1d2977, #8693d6, #d5e4ff);
     padding: 20px;
     margin-bottom: 30px;
-    border-radius: 8px;
+    border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     /*align-items: center;*/
     /*justify-content: center;*/
@@ -117,12 +117,14 @@ main {
     font-size: 2em;
     text-align: center;
     font-family: 'Lato-Regular';
+    color: white;
     margin-bottom: 10px;
 }
 
 .content p {
-    font-size: 1.5em;
+    font-size: 1.2em;
     font-family: 'Helvetica';
+    color: white;
     font-style: bold;
     margin-bottom: 20px;
 }
@@ -140,8 +142,9 @@ main {
 
 .content ul li {
     margin: 10px 0;
-    font-size: 1.5em;
+    font-size: 1.2em;
     font-family: 'Helvetica';
+    color: white;
     font-style: bold;
     text-align: center;
 }
@@ -162,7 +165,7 @@ footer {
     padding: 10px;
     background-color: #333;
     color: white;
-    border-radius: 8px;
+    border-radius: 10px;
     margin-bottom: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
