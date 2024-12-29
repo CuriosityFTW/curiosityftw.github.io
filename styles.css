@@ -121,18 +121,18 @@ main {
     color: white;
     /*padding: 0;*/
     margin-top: 20px;
-    /*line-height: 1;*/
+    line-height: 1.5;
 }
 
 .content h2 {
     font-size: 3.5em;
     text-align: center;
     font-family: 'Lato-Regular';
-    color: lightgrey;
+    color: rgb(211, 211, 250);
     /*padding: 0;*/
     /*margin-top: 5px;*/
     /*margin-bottom: 10px;*/
-    line-height: 0.5;
+    line-height: 0.8;
 }
 
 .content p {
