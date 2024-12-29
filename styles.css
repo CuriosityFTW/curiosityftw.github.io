@@ -53,9 +53,9 @@ header {
     color: white;
     align-items: center;
     /*padding: 50px 20px;*/
-    /*border-radius: 8px;
-    margin-top: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);*/
+    /*border-radius: 8px;*/
+    margin-bottom: 10px;
+    /*box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);*/
 }
 
 /*.header_items {
@@ -97,6 +97,8 @@ main {
     /*max-width: 900px;*/
     width: 100%;
     /*margin: 40px auto;*/
+    /*margin-top: 20px;*/
+    margin-bottom: 10px;
 }
 
 .display1 {
