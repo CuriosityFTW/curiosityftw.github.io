@@ -99,6 +99,10 @@ main {
     /*margin: 40px auto;*/
 }
 
+.display1 {
+    display: flex;
+}
+
 .about_me {
     /*display: flex;*/
     /*background-color: white;*/
