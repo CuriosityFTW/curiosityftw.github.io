@@ -177,33 +177,6 @@ section {
     height: auto;
 }*/
 
-.about_me ul {
-    list-style-type: none;
-    line-height: 1.2;
-}
-
-.about_me ul li {
-    margin: 10px 0;
-    font-size: 1.2em;
-    font-family: 'Helvetica';
-    color: white;
-    line-height: 1.2;
-    font-style: bold;
-    text-align: center;
-}
-
-.about_me a {
-    font-size: 1.2em;
-    font-family: 'Helvetica';
-    color: blue;
-    text-decoration: none;
-    /*text-align: center;*/
-}
-
-.about_me a:hover {
-    text-decoration: underline;
-}
-
 .blog {
     background: linear-gradient(rgba(0, 0, 255, 0.8), rgba(255, 255, 255, 0.8));
     border-radius: 12px;
@@ -216,17 +189,7 @@ section {
     font-family: 'Lato-Regular';
     color: rgb(211, 211, 280);
     margin-top: 20px;
-    line-height: 1.5;
-}
-
-.blog p {
-    font-size: 1.2em;
-    font-family: 'Helvetica';
-    color: white;
-    line-height: 1.2;
-    font-style: bold;
-    padding: 40px;
-    margin-bottom: 20px;
+    /*line-height: 1.5;*/
 }
 
 .blog ul {
@@ -270,16 +233,6 @@ section {
     line-height: 1.5;
 }
 
-.linkedin p {
-    font-size: 1.2em;
-    font-family: 'Helvetica';
-    color: white;
-    line-height: 1.2;
-    font-style: bold;
-    padding: 40px;
-    margin-bottom: 20px;
-}
-
 .linkedin ul {
     list-style-type: none;
     line-height: 1.2;
@@ -319,16 +272,6 @@ section {
     color: rgb(211, 211, 280);
     margin-top: 20px;
     line-height: 1.5;
-}
-
-.projects p {
-    font-size: 1.2em;
-    font-family: 'Helvetica';
-    color: white;
-    line-height: 1.2;
-    font-style: bold;
-    padding: 40px;
-    margin-bottom: 20px;
 }
 
 .projects ul {
