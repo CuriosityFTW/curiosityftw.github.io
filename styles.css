@@ -205,7 +205,7 @@ section {
 }
 
 .blog {
-    background: linear-gradient(to bottom, #0a103b, #1d2977, #8693d6, #d5e4ff);
+    background: linear-gradient(rgba(0, 0, 255, 0.8), rgba(255, 255, 255, 0.8));
     border-radius: 12px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
@@ -214,17 +214,9 @@ section {
     font-size: 4em;
     text-align: center;
     font-family: 'Lato-Regular';
-    color: white;
+    color: rgb(211, 211, 280);
     margin-top: 20px;
     line-height: 1.5;
-}
-
-.blog h2 {
-    font-size: 2.5em;
-    text-align: center;
-    font-family: 'Lato-Regular';
-    color: rgb(211, 211, 275);
-    line-height: 0.3;
 }
 
 .blog p {
@@ -264,7 +256,7 @@ section {
 }
 
 .linkedin {
-    background: linear-gradient(to bottom, #0a103b, #1d2977, #8693d6, #d5e4ff);
+    background: linear-gradient(rgba(0, 0, 255, 0.8), rgba(255, 255, 255, 0.8));
     border-radius: 12px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
@@ -273,17 +265,9 @@ section {
     font-size: 4em;
     text-align: center;
     font-family: 'Lato-Regular';
-    color: white;
+    color: rgb(211, 211, 280);
     margin-top: 20px;
     line-height: 1.5;
-}
-
-.linkedin h2 {
-    font-size: 2.5em;
-    text-align: center;
-    font-family: 'Lato-Regular';
-    color: rgb(211, 211, 275);
-    line-height: 0.3;
 }
 
 .linkedin p {
@@ -323,7 +307,7 @@ section {
 }
 
 .projects {
-    background: linear-gradient(to bottom, #0a103b, #1d2977, #8693d6, #d5e4ff);
+    background: linear-gradient(rgba(0, 0, 255, 0.8), rgba(255, 255, 255, 0.8));
     border-radius: 12px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
@@ -332,17 +316,9 @@ section {
     font-size: 4em;
     text-align: center;
     font-family: 'Lato-Regular';
-    color: white;
+    color: rgb(211, 211, 280);
     margin-top: 20px;
     line-height: 1.5;
-}
-
-.projects h2 {
-    font-size: 2.5em;
-    text-align: center;
-    font-family: 'Lato-Regular';
-    color: rgb(211, 211, 275);
-    line-height: 0.3;
 }
 
 .projects p {
