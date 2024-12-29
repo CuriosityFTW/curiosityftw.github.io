@@ -119,9 +119,8 @@ main {
     text-align: center;
     font-family: 'Lato-Regular';
     color: white;
-    padding: 0;
-    margin-top: 10px;
-    margin-bottom: 0;
+    /*padding: 0;*/
+    margin-top: 20px;
     /*line-height: 1;*/
 }
 
@@ -130,10 +129,10 @@ main {
     text-align: center;
     font-family: 'Lato-Regular';
     color: lightgrey;
-    padding: 0;
+    /*padding: 0;*/
     /*margin-top: 5px;*/
     /*margin-bottom: 10px;*/
-    line-height: 1;
+    line-height: 0.5;
 }
 
 .content p {
@@ -142,7 +141,7 @@ main {
     color: white;
     line-height: 1.2;
     font-style: bold;
-    padding: 20px;
+    padding: 40px;
     margin-bottom: 20px;
 }
 
