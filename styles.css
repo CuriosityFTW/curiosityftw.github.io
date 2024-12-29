@@ -104,6 +104,10 @@ main {
     gap: 20px;
 }
 
+section {
+    flex: 1;
+}
+
 .about_me {
     /*display: flex;*/
     /*background-color: white;*/
