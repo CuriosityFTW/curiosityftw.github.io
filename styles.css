@@ -110,7 +110,7 @@ section {
     flex: 1;
 }
 
-.gradient-text {
+.gradient_text {
     background: linear-gradient(to right, blue, purple, pink, red, orange);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
