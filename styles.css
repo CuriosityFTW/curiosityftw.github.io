@@ -101,7 +101,7 @@ main {
 
 .display1 {
     display: flex;
-    align-items: center;
+    justify-content: space-around;
 }
 
 .about_me {
