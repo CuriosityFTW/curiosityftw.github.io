@@ -99,7 +99,7 @@ main {
     /*margin: 40px auto;*/
 }
 
-.content {
+.about_me {
     /*display: flex;*/
     /*background-color: white;*/
     /*background: linear-gradient(rgba(0, 0, 255, 0.8), rgba(255, 255, 255, 0.8));*/
@@ -114,7 +114,7 @@ main {
     /*height: 100vh;*/
 }
 
-.content h1 {
+.about_me h1 {
     font-size: 4em;
     text-align: center;
     font-family: 'Lato-Regular';
@@ -124,7 +124,7 @@ main {
     line-height: 1.5;
 }
 
-.content h2 {
+.about_me h2 {
     font-size: 2.5em;
     text-align: center;
     font-family: 'Lato-Regular';
@@ -135,7 +135,7 @@ main {
     line-height: 0.3;
 }
 
-.content p {
+.about_me p {
     font-size: 1.2em;
     font-family: 'Helvetica';
     color: white;
@@ -145,19 +145,19 @@ main {
     margin-bottom: 20px;
 }
 
-/*.content img {
+/*.about_me img {
     display: block;
     margin: auto;
     width: 50%;
     height: auto;
 }*/
 
-.content ul {
+.about_me ul {
     list-style-type: none;
     line-height: 1.2;
 }
 
-.content ul li {
+.about_me ul li {
     margin: 10px 0;
     font-size: 1.2em;
     font-family: 'Helvetica';
@@ -167,7 +167,7 @@ main {
     text-align: center;
 }
 
-.content a {
+.about_me a {
     font-size: 1.2em;
     font-family: 'Helvetica';
     color: blue;
@@ -175,7 +175,184 @@ main {
     /*text-align: center;*/
 }
 
-.content a:hover {
+.about_me a:hover {
+    text-decoration: underline;
+}
+
+.blog {
+    background: linear-gradient(to bottom, #0a103b, #1d2977, #8693d6, #d5e4ff);
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.blog h1 {
+    font-size: 4em;
+    text-align: center;
+    font-family: 'Lato-Regular';
+    color: white;
+    margin-top: 20px;
+    line-height: 1.5;
+}
+
+.blog h2 {
+    font-size: 2.5em;
+    text-align: center;
+    font-family: 'Lato-Regular';
+    color: rgb(211, 211, 275);
+    line-height: 0.3;
+}
+
+.blog p {
+    font-size: 1.2em;
+    font-family: 'Helvetica';
+    color: white;
+    line-height: 1.2;
+    font-style: bold;
+    padding: 40px;
+    margin-bottom: 20px;
+}
+
+.blog ul {
+    list-style-type: none;
+    line-height: 1.2;
+}
+
+.blog ul li {
+    margin: 10px 0;
+    font-size: 1.2em;
+    font-family: 'Helvetica';
+    color: white;
+    line-height: 1.2;
+    font-style: bold;
+    text-align: center;
+}
+
+.blog a {
+    font-size: 1.2em;
+    font-family: 'Helvetica';
+    color: blue;
+    text-decoration: none;
+}
+
+.blog a:hover {
+    text-decoration: underline;
+}
+
+.linkedin {
+    background: linear-gradient(to bottom, #0a103b, #1d2977, #8693d6, #d5e4ff);
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.linkedin h1 {
+    font-size: 4em;
+    text-align: center;
+    font-family: 'Lato-Regular';
+    color: white;
+    margin-top: 20px;
+    line-height: 1.5;
+}
+
+.linkedin h2 {
+    font-size: 2.5em;
+    text-align: center;
+    font-family: 'Lato-Regular';
+    color: rgb(211, 211, 275);
+    line-height: 0.3;
+}
+
+.linkedin p {
+    font-size: 1.2em;
+    font-family: 'Helvetica';
+    color: white;
+    line-height: 1.2;
+    font-style: bold;
+    padding: 40px;
+    margin-bottom: 20px;
+}
+
+.linkedin ul {
+    list-style-type: none;
+    line-height: 1.2;
+}
+
+.linkedin ul li {
+    margin: 10px 0;
+    font-size: 1.2em;
+    font-family: 'Helvetica';
+    color: white;
+    line-height: 1.2;
+    font-style: bold;
+    text-align: center;
+}
+
+.linkedin a {
+    font-size: 1.2em;
+    font-family: 'Helvetica';
+    color: blue;
+    text-decoration: none;
+}
+
+.linkedin a:hover {
+    text-decoration: underline;
+}
+
+.projects {
+    background: linear-gradient(to bottom, #0a103b, #1d2977, #8693d6, #d5e4ff);
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.projects h1 {
+    font-size: 4em;
+    text-align: center;
+    font-family: 'Lato-Regular';
+    color: white;
+    margin-top: 20px;
+    line-height: 1.5;
+}
+
+.projects h2 {
+    font-size: 2.5em;
+    text-align: center;
+    font-family: 'Lato-Regular';
+    color: rgb(211, 211, 275);
+    line-height: 0.3;
+}
+
+.projects p {
+    font-size: 1.2em;
+    font-family: 'Helvetica';
+    color: white;
+    line-height: 1.2;
+    font-style: bold;
+    padding: 40px;
+    margin-bottom: 20px;
+}
+
+.projects ul {
+    list-style-type: none;
+    line-height: 1.2;
+}
+
+.projects ul li {
+    margin: 10px 0;
+    font-size: 1.2em;
+    font-family: 'Helvetica';
+    color: white;
+    line-height: 1.2;
+    font-style: bold;
+    text-align: center;
+}
+
+.projects a {
+    font-size: 1.2em;
+    font-family: 'Helvetica';
+    color: blue;
+    text-decoration: none;
+}
+
+.projects a:hover {
     text-decoration: underline;
 }
 
