@@ -120,6 +120,7 @@ main {
     font-family: 'Lato-Regular';
     color: white;
     padding: 0;
+    margin-top: 10px;
     margin-bottom: 5px;
 }
 
@@ -129,7 +130,7 @@ main {
     font-family: 'Lato-Regular';
     color: lightgrey;
     padding: 0;
-    margin-top: 5px;
+    /*margin-top: 5px;*/
     margin-bottom: 10px;
 }
 
