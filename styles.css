@@ -105,8 +105,9 @@ main {
     /*background: linear-gradient(rgba(0, 0, 255, 0.8), rgba(255, 255, 255, 0.8));*/
     background: linear-gradient(to bottom, #0a103b, #1d2977, #8693d6, #d5e4ff);
     padding: 20px;
-    margin-bottom: 30px;
-    border-radius: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 12px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     /*align-items: center;*/
     /*justify-content: center;*/
@@ -125,6 +126,7 @@ main {
     font-size: 1.2em;
     font-family: 'Helvetica';
     color: white;
+    line-height: 1;
     font-style: bold;
     margin-bottom: 20px;
 }
@@ -145,6 +147,7 @@ main {
     font-size: 1.2em;
     font-family: 'Helvetica';
     color: white;
+    line-height: 1;
     font-style: bold;
     text-align: center;
 }
@@ -165,7 +168,8 @@ footer {
     padding: 10px;
     background-color: #333;
     color: white;
-    border-radius: 10px;
+    line-height: 1;
+    border-radius: 12px;
     margin-bottom: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
