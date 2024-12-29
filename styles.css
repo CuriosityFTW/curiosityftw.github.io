@@ -116,7 +116,7 @@ main {
 
 .content h1 {
     font-size: 4em;
-    text-align: center;
+    text-align: justify;
     font-family: 'Lato-Regular';
     color: white;
     /*padding: 0;*/
@@ -126,7 +126,7 @@ main {
 
 .content h2 {
     font-size: 3.33em;
-    text-align: center;
+    text-align: justify;
     font-family: 'Lato-Regular';
     color: rgb(211, 211, 270);
     /*padding: 0;*/
