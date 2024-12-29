@@ -112,7 +112,7 @@ section {
 
 .gradient_text {
     /*background: linear-gradient(to right, blue, purple, pink, red, orange);*/
-    background: linear-gradient(to right, #43cea2, #185a9d);
+    background: linear-gradient(to right, #0a74da, #89cff0, #b3d9ff);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
