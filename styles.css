@@ -189,27 +189,28 @@ section {
     font-family: 'Lato-Regular';
     color: rgb(211, 211, 280);
     margin-top: 10px;
+    margin-top: 30px;
     /*line-height: 1.5;*/
 }
 
 .blog ul {
     list-style-type: none;
-    line-height: 1.2;
+    /*line-height: 1.2;*/
 }
 
 .blog ul li {
-    margin: 10px 0;
+    /*margin: 10px 0;*/
     font-size: 1.2em;
     font-family: 'Helvetica';
-    color: white;
-    line-height: 1.2;
+    /*color: white;
+    line-height: 1.2;*/
     font-style: bold;
     text-align: center;
 }
 
 .blog a {
-    font-size: 1.2em;
-    font-family: 'Helvetica';
+    /*font-size: 1.2em;
+    font-family: 'Helvetica';*/
     color: blue;
     text-decoration: none;
 }
