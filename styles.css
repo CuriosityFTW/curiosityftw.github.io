@@ -45,7 +45,7 @@ header {
     /*gap: 50px;*/
     justify-content: center;
     /*background-color: blue;*/
-    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('images/header_image.jpg');
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('images/header_image_2.jpg');
     /*background-image: url('images/header_image.jpg');*/
     background-size: cover;
     background-position: center;
