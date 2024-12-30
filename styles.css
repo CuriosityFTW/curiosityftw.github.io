@@ -216,8 +216,8 @@ section {
     text-decoration: none;
     display: inline-block;
     padding: 10px 20px;
-    background-color: rgb(0, 86, 240);
-    /*font-weight: bold;*/
+    background-color: rgb(0, 86, 340);
+    /*font-weight: bold;*/ /*doesn't work here*/
     border-radius: 20px;
     /*box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
     transition: background-color 0.3s ease;*/
@@ -225,7 +225,7 @@ section {
 
 .blog a:hover {
     text-decoration: none;
-    background-color: rgb(0, 86, 200);
+    background-color: rgb(0, 86, 240);
 }
 
 .linkedin {
