@@ -142,6 +142,10 @@ section {
     /*align-items: center;*/
     /*justify-content: center;*/
     /*height: 100vh;*/
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
 }
 
 .about_me h1 {
