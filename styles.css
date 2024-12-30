@@ -168,7 +168,7 @@ section {
 .about_me p {
     font-size: 1em;
     font-family: 'Helvetica';
-    color: white;
+    color: rgb(200, 200, 200);
     line-height: 1.2;
     font-style: bold;
     padding: 40px;
