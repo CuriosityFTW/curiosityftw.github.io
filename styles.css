@@ -203,21 +203,29 @@ section {
     /*margin: 10px 0;*/
     font-size: 1.2em;
     font-family: 'Helvetica';
-    /*color: white;
-    line-height: 1.2;*/
-    font-style: bold;
+    color: white;
+    /*line-height: 1.2;*/
+    font-weight: bold;
     text-align: center;
 }
 
 .blog a {
     /*font-size: 1.2em;
-    font-family: 'Helvetica';*/
-    color: blue;
+    font-family: 'Helvetica';
+    color: white;*/
     text-decoration: none;
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    /*font-weight: bold;*/
+    border-radius: 20px;
+    /*box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s ease;*/
 }
 
 .blog a:hover {
-    text-decoration: underline;
+    text-decoration: none;
+    background-color: #0056b3;
 }
 
 .linkedin {
