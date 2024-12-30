@@ -226,6 +226,20 @@ section {
 .blog a:hover {
     text-decoration: none;
     background-color: rgb(0, 43, 200);
+}*/
+
+.learn_more {
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: rgb(0, 86, 240);
+    border-radius: 20px;
+}
+
+.learn_more:hover {
+    text-decoration: none;
+    background-color: rgb(0, 43, 200);
 }
 
 .linkedin {
@@ -249,9 +263,9 @@ section {
 }
 
 .linkedin ul li {
-    font-size: 1.2em;
+    font-size: 1em;
     font-family: 'Helvetica';
-    font-style: bold;
+    /*font-style: bold;*/
     text-align: center;
 }
 
@@ -285,10 +299,10 @@ section {
 }
 
 .projects ul li {
-    font-size: 1.2em;
+    font-size: 1em;
     font-family: 'Helvetica';
-    color: black;
-    font-style: bold;
+    /*color: black;
+    font-style: bold;*/
     text-align: center;
 }
 
