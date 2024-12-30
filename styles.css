@@ -178,7 +178,8 @@ section {
 }*/
 
 .blog {
-    background: linear-gradient(rgba(0, 0, 255, 0.8), rgba(255, 255, 255, 0.8));
+    /*background: linear-gradient(rgba(0, 0, 255, 0.8), rgba(255, 255, 255, 0.8));*/
+    background: white;
     border-radius: 12px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
@@ -243,7 +244,8 @@ section {
 }
 
 .linkedin {
-    background: linear-gradient(rgba(0, 0, 255, 0.8), rgba(255, 255, 255, 0.8));
+    /*background: linear-gradient(rgba(0, 0, 255, 0.8), rgba(255, 255, 255, 0.8));*/
+    background: white;
     border-radius: 12px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
@@ -279,7 +281,8 @@ section {
 }*/
 
 .projects {
-    background: linear-gradient(rgba(0, 0, 255, 0.8), rgba(255, 255, 255, 0.8));
+    /*background: linear-gradient(rgba(0, 0, 255, 0.8), rgba(255, 255, 255, 0.8));*/
+    background: white;
     border-radius: 12px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
