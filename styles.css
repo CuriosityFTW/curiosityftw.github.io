@@ -177,6 +177,11 @@ section {
     margin-bottom: 20px;
 }
 
+.highlight {
+    color: black;
+    /*font-weight: bold;*/
+}
+
 /*.about_me img {
     display: block;
     margin: auto;
