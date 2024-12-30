@@ -211,33 +211,33 @@ section {
 }
 
 .blog a {
-    /*font-size: 1.2em;
-    font-family: 'Helvetica';*/
-    color: white;
+    /*font-size: 1.2em;*/
+    /*font-family: 'Helvetica';*/
+    /*color: white;
     text-decoration: none;
     display: inline-block;
     padding: 10px 20px;
-    background-color: rgb(0, 86, 240);
+    background-color: rgb(0, 86, 240);*/
     /*font-weight: bold;*/ /*doesn't work here*/
-    border-radius: 20px;
-    /*box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
-    transition: background-color 0.3s ease;*/
+    /*border-radius: 20px;*/
+    /*box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);*/
+    /*transition: background-color 0.3s ease;*/
 }
-
+/*
 .blog a:hover {
     text-decoration: none;
     background-color: rgb(0, 43, 200);
 }
-
+*/
 .learn_more {
-    color: rgb(0, 43, 200);
+    color: white;
     text-decoration: none;
     display: inline-block;
     padding: 10px 20px;
-    /*background-color: rgb(0, 86, 240);*/
-    background-color: white;
+    background-color: rgb(0, 86, 255);
+    /*background-color: white;*/
     border-radius: 20px;
-    border: 2px solid rgb(0, 43, 200);
+    /*border: 2px solid rgb(0, 43, 200);*/
 }
 
 .learn_more:hover {
