@@ -201,22 +201,22 @@ section {
 
 .blog ul li {
     /*margin: 10px 0;*/
-    font-size: 1.2em;
+    font-size: 1em;
     font-family: 'Helvetica';
-    color: white;
+    /*color: white;*/
     /*line-height: 1.2;*/
-    font-weight: bold;
+    /*font-weight: bold;*/
     text-align: center;
 }
 
 .blog a {
     /*font-size: 1.2em;
-    font-family: 'Helvetica';
-    color: white;*/
+    font-family: 'Helvetica';*/
+    color: white;
     text-decoration: none;
     display: inline-block;
     padding: 10px 20px;
-    background-color: #007bff;
+    background-color: rgb(0, 86, 140);
     /*font-weight: bold;*/
     border-radius: 20px;
     /*box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
@@ -225,7 +225,7 @@ section {
 
 .blog a:hover {
     text-decoration: none;
-    background-color: #0056b3;
+    background-color: rgb(0, 86, 180);
 }
 
 .linkedin {
