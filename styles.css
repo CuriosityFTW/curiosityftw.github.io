@@ -189,7 +189,7 @@ section {
     /*margin: 0 40px;*/
 }
 
-.about_me img {
+.learning_image {
     display: flex;
     /*display: block;
     margin: auto;
@@ -197,7 +197,6 @@ section {
     height: auto;*/
     justify-content: center;
     align-items: center;
-    margin: 0;
 }
 
 .text_highlight {
