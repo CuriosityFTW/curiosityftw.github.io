@@ -109,7 +109,7 @@ main {
     /*max-width: 900px;*/
     width: 100%;
     /*margin: 40px auto;*/
-    /*margin-top: 20px;*/
+    margin-top: 20px;
     margin-bottom: 20px;
 }
 
@@ -139,8 +139,8 @@ section {
     background: linear-gradient(to bottom, #0a103b, #1d2977, #d9f1ff);
     /*opacity: 0.95;*/
     /*padding: 20px;*/
-    /*margin-top: 20px;
-    margin-bottom: 20px;*/
+    /*margin-top: 20px;*/
+    margin-bottom: 20px;
     border-radius: 12px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     /*align-items: center;*/
@@ -189,7 +189,7 @@ section {
 .para_spacing_1 {
     /*margin-top: 100px;
     margin-bottom: 50px;*/
-    padding: 40px 40px 10px 40px;
+    padding: 40px 40px 20px 40px;
 }
 
 .para_spacing_2 {
