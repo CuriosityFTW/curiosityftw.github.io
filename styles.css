@@ -176,8 +176,8 @@ section {
     /*text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);*/
     /*line-height: 1.4;*/
     font-weight: bold;
-    padding: 40px;
-    margin-bottom: 20px;
+    /*padding: 40px;
+    margin-bottom: 20px;*/
 }
 
 .text_highlight {
@@ -186,7 +186,7 @@ section {
 }
 
 .para_spacing {
-    margin: 2px 0;
+    margin: 5px 0;
 }
 
 /*.about_me img {
