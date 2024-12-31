@@ -208,12 +208,12 @@ section {
     padding: 0 40px 20px 40px;
 }
 
-/*.about_me img {
-    display: block;
+.img {
+    /*display: block;*/
     margin: auto;
-    width: 50%;
-    height: auto;
-}*/
+    /*width: 50%;
+    height: auto;*/
+}
 
 .blog {
     /*background: linear-gradient(rgba(0, 0, 255, 0.8), rgba(255, 255, 255, 0.8));*/
