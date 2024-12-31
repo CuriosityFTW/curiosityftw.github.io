@@ -62,7 +62,7 @@ header {
     align-items: center;
     /*padding: 50px 20px;*/
     /*border-radius: 8px;*/
-    margin-bottom: 5px;
+    margin-bottom: 20px;
     /*box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);*/
 }
 
@@ -98,7 +98,7 @@ header img {
 .header_text h1 {
     text-align: center;
     font-size: 4em;
-    font-family: 'Poppins-Regular';
+    font-family: 'Lato-Regular';
     /*font-weight: 500;*/
     /*margin-top: 10px;*/
 }
@@ -108,7 +108,7 @@ header img {
     font-family: 'Poppins-LightItalic';
     /*font-weight: 400;*/
     /*font-style: italic;*/
-    font-size: 1.5em;
+    font-size: 1.3em;
     /*padding: 20px;*/
 }
 
@@ -145,7 +145,7 @@ section {
     /*background: rgb(245, 245, 245);*/
     /*background: linear-gradient(to bottom, #d9f1ff, #f1faff);*/
     background: linear-gradient(to bottom, #0a103b, #1d2977, #d9f1ff);
-    /*opacity: 0.95;*/
+    opacity: 0.95;
     /*padding: 20px;*/
     /*margin-top: 20px;*/
     margin-bottom: 20px;
