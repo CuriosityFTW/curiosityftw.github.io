@@ -209,10 +209,11 @@ section {
 }
 
 .img {
-    /*display: block;*/
+    /*display: block;
     margin: auto;
-    /*width: 50%;
+    width: 50%;
     height: auto;*/
+    align-items: center;
 }
 
 .blog {
