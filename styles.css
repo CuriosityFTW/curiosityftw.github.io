@@ -32,7 +32,7 @@
 
 body {
     /*font-family: 'Helvetica';*/
-    background-color: #f7f7f7;
+    background-color: white;
     color: #333;
     /*line-height: 1.6;*/
     padding: 0 20px; /*comment this to remove white side box borders*/
@@ -133,7 +133,8 @@ section {
     /*display: flex;*/
     /*background-color: white;*/
     /*background: linear-gradient(rgba(0, 0, 255, 0.8), rgba(255, 255, 255, 0.8));*/
-    background: linear-gradient(to bottom, #0a103b, #1d2977, #8693d6, #d5e4ff);
+    /*background: linear-gradient(to bottom, #0a103b, #1d2977, #8693d6, #d5e4ff);*/
+    background: rgb(245, 245, 245);
     opacity: 0.95;
     /*padding: 20px;*/
     /*margin-top: 20px;
@@ -191,7 +192,7 @@ section {
 
 .blog {
     /*background: linear-gradient(rgba(0, 0, 255, 0.8), rgba(255, 255, 255, 0.8));*/
-    background: white;
+    background: rgb(245, 245, 245);
     border-radius: 12px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
@@ -260,7 +261,7 @@ section {
 
 .linkedin {
     /*background: linear-gradient(rgba(0, 0, 255, 0.8), rgba(255, 255, 255, 0.8));*/
-    background: white;
+    background: rgb(245, 245, 245);
     border-radius: 12px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
@@ -297,7 +298,7 @@ section {
 
 .projects {
     /*background: linear-gradient(rgba(0, 0, 255, 0.8), rgba(255, 255, 255, 0.8));*/
-    background: white;
+    background: rgb(245, 245, 245);
     border-radius: 12px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
