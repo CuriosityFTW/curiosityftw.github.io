@@ -185,6 +185,10 @@ section {
     /*font-weight: bold;*/
 }
 
+p {
+    margin: 10px 0;
+}
+
 /*.about_me img {
     display: block;
     margin: auto;
