@@ -181,7 +181,7 @@ section {
 }
 
 .text_highlight {
-    color: black;
+    color: rgb(150, 150, 150);
     /*font-weight: bold;*/
 }
 
