@@ -209,6 +209,7 @@ section {
 }
 
 .img {
+    display: flex;
     /*display: block;
     margin: auto;
     width: 50%;
