@@ -190,7 +190,7 @@ section {
 }
 
 .text_highlight {
-    color: rgb(140, 140, 140);
+    color: rgb(200, 200, 200);
     /*font-weight: bold;*/
 }
 
@@ -226,7 +226,7 @@ section {
     text-align: center;
     font-family: 'Poppins-Regular';
     color: rgb(54, 69, 79);
-    margin-top: 10px;
+    margin-top: 8px;
     margin-bottom: 30px;
     /*line-height: 1.5;*/
 }
@@ -295,7 +295,7 @@ section {
     text-align: center;
     font-family: 'Poppins-Regular';
     color: rgb(54, 69, 79);
-    margin-top: 10px;
+    margin-top: 8px;
     margin-bottom: 30px;
 }
 
@@ -332,7 +332,7 @@ section {
     text-align: center;
     font-family: 'Poppins-Regular';
     color: rgb(54, 69, 79);
-    margin-top: 10px;
+    margin-top: 8px;
     margin-bottom: 30px;
 }
 
