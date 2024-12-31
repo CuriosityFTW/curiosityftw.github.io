@@ -178,7 +178,7 @@ section {
     font-weight: bold;
     /*padding: 40px;
     margin-bottom: 20px;*/
-    /*margin: 20px 20px;*/
+    margin: 0 20px;
 }
 
 .text_highlight {
@@ -186,9 +186,14 @@ section {
     /*font-weight: bold;*/
 }
 
-/*.para_spacing {
-    margin: 5px 0;
-}*/
+.para_spacing_1 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.para_spacing_2 {
+    margin-bottom: 20px;
+}
 
 /*.about_me img {
     display: block;
