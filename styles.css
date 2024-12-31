@@ -174,20 +174,20 @@ section {
     font-family: 'Helvetica';
     color: white;
     /*text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);*/
-    line-height: 1.2;
+    line-height: 1.3;
     font-weight: bold;
     padding: 40px;
     margin-bottom: 20px;
 }
 
 .text_highlight {
-    color: rgb(150, 150, 150);
+    color: rgb(140, 140, 140);
     /*font-weight: bold;*/
 }
 
-/*p {
-    margin: 10px 0;
-}*/
+.para_spacing {
+    margin: 5px 0;
+}
 
 /*.about_me img {
     display: block;
