@@ -7,6 +7,16 @@
     <title>CuriosityFTW</title>
     <link rel="stylesheet" href="styles.css">
 </head>
+    
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-4MBJG09PBK"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-4MBJG09PBK');
+</script>
+    
 <body>
     <!--
     <div style="text-align: left; margin-top: 20px;">
@@ -59,9 +69,9 @@ Through these diverse chapters, one theme has emerged as my guiding star: a prof
     <footer>
         <p>&copy; 2024 CuriosityFTW. All rights reserved.</p>
         <!--<p>Visitor count: <?php include 'counter.php'; ?></p>-->
-        <p>Visitors: <span id="visitor-count">Loading...</span></p>
+        <!--<p>Visitors: <span id="visitor-count">Loading...</span></p>-->
     </footer>
-    <script>
+    <!--<script>
         fetch('https://api.countapi.xyz/hit/curiosityftw.github.io/visits')
             .then(response => response.json())
             .then(data => {
@@ -71,6 +81,6 @@ Through these diverse chapters, one theme has emerged as my guiding star: a prof
                 console.error('Error fetching visitor count:', error);
                 document.getElementById('visitor-count').innerText = "Error";
             });
-    </script>
+    </script>-->
 </body>
 </html>
