@@ -11,6 +11,12 @@ if (!file_exists($file)) {
     exit; // Stop further execution
 }
 
+if (is_writable('counter.txt')) {
+    echo "counter.txt is writable.";
+} else {
+    echo "counter.txt is not writable.";
+}
+
 // Read the current count
 $count = file_get_contents($file);
 
