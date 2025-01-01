@@ -229,7 +229,7 @@ section {
     font-size: 4em;
     text-align: center;
     font-family: 'Poppins-Regular';
-    color: rgb(54, 69, 79);
+    color: #333; /*rgb(54, 69, 79);*/
     margin-top: 3px;
     margin-bottom: 30px;
     /*line-height: 1.5;*/
@@ -299,7 +299,7 @@ section {
     font-size: 4em;
     text-align: center;
     font-family: 'Poppins-Regular';
-    color: rgb(54, 69, 79);
+    color: #333; /*rgb(54, 69, 79);*/
     margin-top: 3px;
     margin-bottom: 30px;
 }
@@ -337,7 +337,7 @@ section {
     font-size: 4em;
     text-align: center;
     font-family: 'Poppins-Regular';
-    color: rgb(54, 69, 79);
+    color: #333; /*rgb(54, 69, 79);*/
     margin-top: 3px;
     margin-bottom: 30px;
 }
