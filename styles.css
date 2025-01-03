@@ -56,12 +56,14 @@ body {
 
 .menu_learn_more {
     color: rgb(0, 43, 200);
+    font-size: 1em;
+    font-family: 'Helvetica';
     text-decoration: none;
     display: inline-block;
     padding: 10px 20px;
     background-color: white;
     border-radius: 20px;
-    border: 2px solid rgb(0, 43, 200);
+    border: 1px solid rgb(0, 43, 200);
 }
 
 .menu_learn_more:hover {
@@ -91,7 +93,7 @@ header {
     /*padding: 50px 20px;*/
     /*border-radius: 8px;*/
     margin-bottom: 20px;
-    /*box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);*/
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 /*.header_items {
