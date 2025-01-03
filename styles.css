@@ -43,7 +43,7 @@ body {
     background-color: white;
     color: #333;
     /*line-height: 1.6;*/
-    /*padding: 0 20px;*/ /*comment this to remove white side box borders*/
+    padding: 0 15px; /*comment this to remove white side box borders*/
 }
 
 .display2 {
@@ -87,7 +87,7 @@ header {
     /*background-image: url('images/header_image.jpg');*/
     background-size: cover;
     background-position: center;
-    height: 150px;
+    height: 200px;
     color: white;
     align-items: center;
     /*padding: 50px 20px;*/
@@ -103,7 +103,7 @@ header {
 }*/
 
 header img {
-    max-height: 150px;
+    max-height: 200px;
     width: auto;
     border-radius: 50%;
     /*margin-left: 300px;*/
