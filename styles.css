@@ -54,6 +54,22 @@ body {
     margin-bottom: 10px;
 }
 
+.menu_learn_more {
+    color: rgb(0, 43, 200);
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: white;
+    border-radius: 20px;
+    border: 2px solid rgb(0, 43, 200);
+}
+
+.menu_learn_more:hover {
+    color: white;
+    text-decoration: none;
+    background-color: rgb(0, 43, 200);
+}
+
 /*.section {
     flex: 1;
 }*/
@@ -294,22 +310,6 @@ section {
 }
 
 .learn_more:hover {
-    color: white;
-    text-decoration: none;
-    background-color: rgb(0, 43, 200);
-}
-
-.menu_learn_more {
-    color: rgb(0, 43, 200);
-    text-decoration: none;
-    display: inline-block;
-    padding: 10px 20px;
-    background-color: white;
-    border-radius: 20px;
-    border: 2px solid rgb(0, 43, 200);
-}
-
-.menu_learn_more:hover {
     color: white;
     text-decoration: none;
     background-color: rgb(0, 43, 200);
