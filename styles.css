@@ -93,7 +93,7 @@ header {
     /*padding: 50px 20px;*/
     /*border-radius: 8px;*/
     margin-bottom: 20px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 /*.header_items {
