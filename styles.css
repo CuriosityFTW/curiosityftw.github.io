@@ -86,7 +86,7 @@ header {
     /*background-color: blue;*/
     background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('images/header_image_2.jpg');
     /*background-image: url('images/header_image.jpg');*/
-    background-size: cover;
+    /*background-size: cover;*/
     background-position: center;
     height: 200px;
     color: white;
@@ -97,9 +97,7 @@ header {
     /*box-shadow: 0 0 4px 8px rgba(10, 16, 59, 0.1);*/
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     /*padding: 0 15px;*/
-    /*margin: 0 15px;*/
-    margin-left: 15px;
-    margin-right: 15px;
+    margin: 0 15px;
 }
 
 /*.header_items {
