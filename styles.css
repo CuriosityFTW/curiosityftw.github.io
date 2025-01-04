@@ -46,7 +46,7 @@ body {
     padding: 0 15px; /*comment this to remove white side box borders*/
 }
 
-.display2 {
+display2 {
     background: blue;
     display: flex;
     gap: 5px;
