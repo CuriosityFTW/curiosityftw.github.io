@@ -44,6 +44,7 @@ body {
     color: #333;
     /*line-height: 1.6;*/
     /*padding: 0 15px;*/ /*comment this to remove white side box borders*/
+    padding-top: 50px;
 }
 
 .display2 {
