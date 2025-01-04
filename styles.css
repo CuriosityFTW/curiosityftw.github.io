@@ -93,7 +93,6 @@ header {
     align-items: center;
     /*padding: 50px 20px;*/
     /*border-radius: 8px;*/
-    margin-bottom: 0;
     /*box-shadow: 0 0 4px 8px rgba(10, 16, 59, 0.1);*/
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     /*padding: 0 15px;*/
@@ -149,7 +148,7 @@ header img {
 /* Main Section Styles */
 main {
     /*max-width: 900px;*/
-    width: 100%;
+    /*width: 100%;*/
     /*margin: 40px auto;*/
     /*margin-top: 10px;*/
     margin-bottom: 20px;
