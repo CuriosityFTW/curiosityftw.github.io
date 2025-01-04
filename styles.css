@@ -48,6 +48,8 @@ body {
 
 .display2 {
     position: fixed;
+    width: 100%;
+    z-index: 1000;
     background: #0a103b;
     display: flex;
     gap: 5px;
