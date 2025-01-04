@@ -44,14 +44,14 @@ body {
     color: #333;
     /*line-height: 1.6;*/
     /*padding: 0 15px;*/ /*comment this to remove white side box borders*/
-    padding-top: 45px;
+    padding-top: 48px;
 }
 
 .display2 {
     position: fixed;
     width: 100%;
     z-index: 1000;
-    background: #0a103b;
+    background: rgba(10, 16, 59, 0.8);
     display: flex;
     gap: 5px;
     justify-content: flex-end;
