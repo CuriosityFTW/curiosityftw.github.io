@@ -44,6 +44,7 @@ body {
     color: #333;
     /*line-height: 1.6;*/
     /*padding: 0 15px;*/ /*comment this to remove white side box borders*/
+    padding-top: 50px;
 }
 
 .display2 {
@@ -56,6 +57,7 @@ body {
     justify-content: flex-end;
     margin-top: 0;
     margin-bottom: 50px;
+    top: 0;
 }
 /*
 .menu_learn_more {
