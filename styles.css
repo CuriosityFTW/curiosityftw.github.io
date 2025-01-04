@@ -43,11 +43,11 @@ body {
     background-color: white;
     color: #333;
     /*line-height: 1.6;*/
-    padding: 0 15px; /*comment this to remove white side box borders*/
+    /*padding: 0 15px;*/ /*comment this to remove white side box borders*/
 }
 
-display2 {
-    background: blue;
+.display2 {
+    background: #0a103b;
     display: flex;
     gap: 5px;
     justify-content: flex-end;
@@ -96,6 +96,7 @@ header {
     margin-bottom: 0;
     /*box-shadow: 0 0 4px 8px rgba(10, 16, 59, 0.1);*/
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 0 15px;
 }
 
 /*.header_items {
@@ -151,6 +152,7 @@ main {
     /*margin: 40px auto;*/
     /*margin-top: 10px;*/
     margin-bottom: 20px;
+    padding: 0 15px;
 }
 
 .display1 {
