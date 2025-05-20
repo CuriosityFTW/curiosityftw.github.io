@@ -516,7 +516,11 @@
     padding: 0 15px;
 }
 
-.display2 {
+.projects_page section {
+    flex: 1;
+}
+
+.display_dropdown {
     /*position: fixed;*/
     width: 100%;
     z-index: 1000;
@@ -528,10 +532,6 @@
     /*margin-top: 0;*/
     /*margin-bottom: 50px;*/
     top: 0;
-}
-
-.projects_page section {
-    flex: 1;
 }
 
 .about_me {
