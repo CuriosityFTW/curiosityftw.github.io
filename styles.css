@@ -5,6 +5,7 @@
     box-sizing: border-box;
 }
 
+/* Fonts */
 @font-face {
     font-family: 'Audrey-Medium';
     src: url('fonts/Audrey 1.0/Audrey 1.0/Audrey-Medium.otf') format('opentype');
@@ -38,7 +39,7 @@
     src: url('fonts/Poppins/Poppins-LightItalic.ttf') format('truetype');
 }
 
-body {
+.main_page body {
     /*font-family: 'Helvetica';*/
     background-color: white;
     color: #333;
@@ -102,7 +103,7 @@ body {
 }*/
 
 /* Header Styles */
-header {
+.main_page header {
     /*width: 100%;*/
     display: flex;
     /*gap: 50px;*/
@@ -130,7 +131,7 @@ header {
     align-items: center;
 }*/
 
-header img {
+.main_page header img {
     max-height: 200px;
     width: auto;
     border-radius: 50%;
@@ -173,7 +174,7 @@ header img {
 }
 
 /* Main Section Styles */
-main {
+.main_page main {
     /*max-width: 900px;*/
     /*width: 100%;*/
     /*margin: 40px auto;*/
@@ -187,7 +188,7 @@ main {
     gap: 20px;
 }
 
-section {
+.main_page section {
     flex: 1;
 }
 
@@ -426,7 +427,7 @@ section {
 }*/
 
 /* Footer Styles */
-footer {
+.main_page footer {
     text-align: center;
     padding: 10px;
     background-color: #333;
@@ -438,7 +439,7 @@ footer {
     margin-right: 15px;
 }
 
-footer p {
+.main_page footer p {
     font-size: 0.8em;
     font-family: 'Helvetica';
     font-style: bold;
