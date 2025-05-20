@@ -150,7 +150,6 @@
     /*padding: 20px;*/
 }
 
-/* Main Section Styles */
 .main_page main {
     /*max-width: 900px;*/
     /*width: 100%;*/
@@ -432,24 +431,6 @@
     padding-top: 48px;
 }
 
-.menu_learn_more {
-    color: white;
-    font-size: 1em;
-    font-family: 'Helvetica';
-    text-decoration: none;
-    display: inline-block;
-    padding: 10px 20px;
-    /*background-color: rgba(10, 16, 59, 0.95);*/
-    /*border-radius: 20px;
-    border: 1px solid rgb(0, 43, 200);*/
-}
-
-.menu_learn_more:hover {
-    color: #0a103b;
-    text-decoration: none;
-    background-color: white;
-}
-
 .projects_page header {
     /*width: 100%;*/
     display: flex;
@@ -506,7 +487,6 @@
     /*padding: 20px;*/
 }
 
-/* Main Section Styles */
 .projects_page main {
     /*max-width: 900px;*/
     /*width: 100%;*/
@@ -532,6 +512,24 @@
     /*margin-top: 0;*/
     /*margin-bottom: 50px;*/
     top: 0;
+}
+
+.menu_learn_more {
+    color: white;
+    font-size: 1em;
+    font-family: 'Helvetica';
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px 20px;
+    /*background-color: rgba(10, 16, 59, 0.95);*/
+    /*border-radius: 20px;
+    border: 1px solid rgb(0, 43, 200);*/
+}
+
+.menu_learn_more:hover {
+    color: #0a103b;
+    text-decoration: none;
+    background-color: white;
 }
 
 .about_me {
