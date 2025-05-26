@@ -540,11 +540,11 @@
 
 .categories {
     list-style-type: none; /* no bullets */
-    margin-top: 90px;
+    margin-top: 0px;
 }
 
 .categories li {
-    margin-bottom: 15px;
+    margin-bottom: 5px;
 }
 
 .right_box {
