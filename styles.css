@@ -500,11 +500,11 @@
     display: flex;
     gap: 20px;
 }
-
+/*
 .projects_page section {
     flex: 1;
 }
-
+*/
 .left_box {
     /*display: flex;*/
     width: 30%;
