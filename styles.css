@@ -1,7 +1,7 @@
 /* global style */
 * {
     margin: 0;
-    padding: 1;
+    padding: 0;
     box-sizing: border-box;
 }
 
@@ -516,7 +516,7 @@
     /*background: linear-gradient(to bottom, #d9f1ff, #f1faff);*/
     /*background: linear-gradient(to bottom, #0a103b, #1d2977, #d9f1ff);*/
     /*opacity: 0.95;*/
-    padding: 30px;
+    padding: 60px;
     /*margin-top: 20px;*/
     margin-bottom: 10px;
     border-radius: 12px;
