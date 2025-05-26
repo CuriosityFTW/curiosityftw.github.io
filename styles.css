@@ -428,7 +428,8 @@
     color: #333;
     /*line-height: 1.6;*/
     /*padding: 0 15px;*/ /*comment this to remove white side box borders*/
-    padding-top: 48px;
+    padding-top: 30px;
+    margin-top: 15px;
 }
 
 .projects_page header {
@@ -515,7 +516,7 @@
     /*background: linear-gradient(to bottom, #d9f1ff, #f1faff);*/
     /*background: linear-gradient(to bottom, #0a103b, #1d2977, #d9f1ff);*/
     /*opacity: 0.95;*/
-    /*padding: 20px;*/
+    padding: 15px;
     /*margin-top: 20px;*/
     margin-bottom: 15px;
     border-radius: 12px;
@@ -547,7 +548,7 @@
     /*background: linear-gradient(to bottom, #d9f1ff, #f1faff);*/
     /*background: linear-gradient(to bottom, #0a103b, #1d2977, #d9f1ff);*/
     /*opacity: 0.95;*/
-    /*padding: 20px;*/
+    padding: 15px;
     /*margin-top: 20px;*/
     margin-bottom: 15px;
     border-radius: 12px;
