@@ -83,5 +83,19 @@
         <p>&copy; 2025 CuriosityFTW. All rights reserved.</p>
     </footer>
 
+    <script>
+    document.addEventListener('DOMContentLoaded', () => {
+        const buttons = document.querySelectorAll('.category_button');
+        buttons.forEach(button => {
+            button.addEventListener('click', () => {
+                // Remove 'clicked' class from all buttons
+                buttons.forEach(btn => btn.classList.remove('clicked'));
+                // Add 'clicked' class to the clicked button
+                button.classList.add('clicked');
+            });
+        });
+    });
+    </script>
+    
 </body>
 </html>
