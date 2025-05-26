@@ -31,6 +31,7 @@
         <div class="left_right_boxes">
             <section class="left_box">
                 <h2>left box</h2>
+                
                 <!--
                 <ul style="list-style-type: none; padding: 0; margin: 0;">
                     <li><a href="projects.html" class="category_button">category_1</a></li>
@@ -42,15 +43,12 @@
                     <li><a href="projects.html" class="category_button">category_3</a></li>
                 </ul>
                 -->
+                
                 <ul style="list-style-type: none; padding: 0; margin: 0;">
-                    <li><button class="category_button">category_1</button></li>
+                  <li><a href="projects.html?selected=category_1" class="category_button" data-category="category_1">category_1</a></li>
+                  <li><a href="projects.html?selected=category_2" class="category_button" data-category="category_2">category_2</a></li>
+                  <li><a href="projects.html?selected=category_3" class="category_button" data-category="category_3">category_3</a></li>
                 </ul>
-                <ul style="list-style-type: none; padding: 0; margin: 0;">
-                    <li><button class="category_button">category_2</button></li>
-                </ul>
-                <ul style="list-style-type: none; padding: 0; margin: 0;">
-                    <li><button class="category_button">category_3</button></li>
-                </ul>                
             </section>
             
             <section class="right_box">
@@ -93,7 +91,8 @@
     <footer>
         <p>&copy; 2025 CuriosityFTW. All rights reserved.</p>
     </footer>
-
+    
+    <!--
     <script>
     document.addEventListener('DOMContentLoaded', () => {
         const buttons = document.querySelectorAll('.category_button');
@@ -107,6 +106,23 @@
         });
     });
     </script>
+    -->
     
+    <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      const urlParams = new URLSearchParams(window.location.search);
+      const selectedCategory = urlParams.get('selected');
+    
+      if (selectedCategory) {
+        const selectedButton = document.querySelector(
+          `.category_button[data-category="${selectedCategory}"]`
+        );
+        if (selectedButton) {
+          selectedButton.classList.add('clicked');
+        }
+      }
+    });
+    </script>
+
 </body>
 </html>
