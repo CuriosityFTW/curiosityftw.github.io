@@ -538,6 +538,15 @@
     line-height: 0.2;
 }
 
+.categories {
+    list-style-type: none; /* no bullets */
+    margin-top: 90px;
+}
+
+.categories li {
+    margin-bottom: 15px;
+}
+
 .right_box {
     /*display: flex;*/
     width: 70%;
@@ -592,7 +601,7 @@
     padding: 10px 20px;
     background-color: white;
     /*background-color: white;*/
-    border-radius: 20px;
+    border-radius: 25px;
     border: 2px solid transparent; /* Prevents layout shift */
 }
 
