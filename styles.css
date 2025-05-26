@@ -586,6 +586,7 @@
 
 .category_button {
     color: black;
+    font-family: 'Helvetica';
     text-decoration: none;
     display: inline-block;
     padding: 10px 20px;
@@ -596,9 +597,15 @@
 }
 
 .category_button:hover {
-    color: white;
+    color: black;
     text-decoration: none;
-    background-color: black;
+    border: 2px rgb(0, 43, 200);
+    /*background-color: rgb(0, 43, 200);*/
+}
+
+.category_button.clicked {
+    color: white;
+    background-color: rgb(0, 43, 200);
 }
 
 .projects_page footer {
