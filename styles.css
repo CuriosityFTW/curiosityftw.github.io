@@ -542,7 +542,7 @@
 
 .categories {
     list-style-type: none; /* no bullets */
-    margin-top: 30px;
+    margin-top: 25px;
 }
 
 .categories li {
@@ -581,27 +581,13 @@
     line-height: 0.2;
 }
 
-.display_dropdown {
-    /*position: fixed;*/
-    width: 100%;
-    z-index: 1000;
-    /*background: rgba(10, 16, 59, 0.95);*/
-    background-color: white;
-    display: flex;
-    gap: 5px;
-    justify-content: flex-end;
-    /*margin-top: 0;*/
-    /*margin-bottom: 50px;*/
-    top: 0;
-}
-
 .category_button {
     color: rgb(0, 43, 200);
     font-family: 'Helvetica';
     text-decoration: none;
     display: inline-block;
     padding: 10px 20px;
-    background-color: white;
+    background-color: #d9f1ff;
     /*background-color: white;*/
     border-radius: 25px;
     border: 2px solid transparent; /* Prevents layout shift */
