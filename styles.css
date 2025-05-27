@@ -517,7 +517,7 @@
     /*background: linear-gradient(to bottom, #d9f1ff, #f1faff);*/
     /*background: linear-gradient(to bottom, #0a103b, #1d2977, #d9f1ff);*/
     /*opacity: 0.95;*/
-    padding: 30px;
+    padding: 20px;
     /*margin-top: 20px;
     margin-bottom: 10px;*/
     border-radius: 12px;
@@ -535,7 +535,7 @@
     /*color: rgb(211, 211, 280);*/
     color: #333;
     /*padding: 0;*/
-    margin-top: 5px;
+    margin-top: 15px;
     margin-bottom: 25px;
     line-height: 0.2;
 }
