@@ -46,7 +46,7 @@
     color: #333;
     /*line-height: 1.6;*/
     /*padding: 0 15px;*/ /*comment this to remove white side box borders*/
-    padding-top: 45px;
+    padding-top: 40px;
 }
 
 .display2 {
@@ -68,7 +68,7 @@
     font-family: 'Helvetica';
     text-decoration: none;
     display: inline-block;
-    padding: 10px 20px; /* t/p l/r */
+    padding: 10px 20px; /* t/b l/r */
     /*background-color: rgba(10, 16, 59, 0.95);*/
     /*border-radius: 20px;
     border: 1px solid rgb(0, 43, 200);*/
@@ -76,6 +76,8 @@
 
 .menu_learn_more:hover {
     color: #0a103b;
+    font-size: 1em;
+    font-family: 'Helvetica';    
     text-decoration: none;
     background-color: white;
 }
@@ -185,7 +187,7 @@
     /*background: linear-gradient(to bottom, #0a103b, #1d2977, #8693d6, #d5e4ff);*/
     /*background: rgb(245, 245, 245);*/
     /*background: linear-gradient(to bottom, #d9f1ff, #f1faff);*/
-    background: linear-gradient(to bottom, #0a103b, #1d2977, #d9f1ff);
+    background: linear-gradient(to bottom, #0a103b, #1d2977, #d9f1ff, #ffffff);
     /*opacity: 0.95;*/
     /*padding: 20px;*/
     /*margin-top: 20px;*/
