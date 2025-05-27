@@ -187,13 +187,13 @@
     /*background: linear-gradient(to bottom, #0a103b, #1d2977, #8693d6, #d5e4ff);*/
     /*background: rgb(245, 245, 245);*/
     /*background: linear-gradient(to bottom, #d9f1ff, #f1faff);*/
-    background: linear-gradient(to bottom, #0a103b, #1d2977, #d9f1ff, #ffffff);
+    background: linear-gradient(to bottom, #0a103b, #1d2977, #d9f1ff, #eaf8ff, #ffffff);
     /*opacity: 0.95;*/
     /*padding: 20px;*/
     /*margin-top: 20px;*/
     margin-bottom: 15px;
     /*border-radius: 12px;*/
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    /*box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);*/
     /*align-items: center;*/
     /*justify-content: center;*/
     /*height: 100vh;*/
