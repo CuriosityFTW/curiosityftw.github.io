@@ -46,7 +46,7 @@
     color: #333;
     /*line-height: 1.6;*/
     /*padding: 0 15px;*/ /*comment this to remove white side box borders*/
-    padding-top: 40px;
+    padding-top: 39px;
 }
 
 .display2 {
@@ -187,7 +187,8 @@
     /*background: linear-gradient(to bottom, #0a103b, #1d2977, #8693d6, #d5e4ff);*/
     /*background: rgb(245, 245, 245);*/
     /*background: linear-gradient(to bottom, #d9f1ff, #f1faff);*/
-    background: linear-gradient(to bottom, #0a103b, #1d2977, #d9f1ff, #eaf8ff, #ffffff);
+    /*background: linear-gradient(to bottom, #0a103b, #1d2977, #d9f1ff, #ffffff);*/
+    background: linear-gradient(to bottom, #0a103b, #1d2977, #ffffff);
     /*opacity: 0.95;*/
     /*padding: 20px;*/
     /*margin-top: 20px;*/
