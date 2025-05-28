@@ -29,100 +29,72 @@
     
     <main>
         <div class="left_right_boxes">
+            
             <section class="left_box">
                 <h2>Choose a domain.</h2>
                 <h2>Explore what I have built.</h2>
                 
-                <!--
-                <ul style="list-style-type: none; padding: 0; margin: 0;">
-                    <li><a href="projects.html" class="category_button">category_1</a></li>
-                </ul>
-                <ul style="list-style-type: none; padding: 0; margin: 0;">
-                    <li><a href="projects.html" class="category_button">category_2</a></li>
-                </ul>
-                <ul style="list-style-type: none; padding: 0; margin: 0;">
-                    <li><a href="projects.html" class="category_button">category_3</a></li>
-                </ul>
-                -->
-                
                 <ul class="categories">
-                  <li><a href="projects.html?selected=category_1" class="category_button" data-category="category_1">category_1</a></li>
-                  <li><a href="projects.html?selected=category_2" class="category_button" data-category="category_2">category_2</a></li>
-                  <li><a href="projects.html?selected=category_3" class="category_button" data-category="category_3">category_3</a></li>
+                  <li><a href="projects.html?selected=category_1" class="category_button" data-category="aircraft">Aircraft</a></li>
+                  <li><a href="projects.html?selected=category_2" class="category_button" data-category="aerial_robotics">Aerial Robotics</a></li>
+                  <li><a href="projects.html?selected=category_3" class="category_button" data-category="healthcare">Healthcare</a></li>
+                  <li><a href="projects.html?selected=category_4" class="category_button" data-category="additive_manufacturing">Additive Manufacturing</a></li>
+                  <li><a href="projects.html?selected=category_5" class="category_button" data-category="automotive">Automotive</a></li>
                 </ul>
             </section>
             
-            <section class="right_box">
-                <h2>right box</h2>            
-            </section>
-            
-            <!--
-            <section class="display_dropdown">
-                <a href="https://github.com/CuriosityFTW" class="menu_learn_more" target="_blank">Projects</a>
-                <a href="https://medium.com/curiosityftw" class="menu_learn_more" target="_blank">Blog</a>
-                <a href="https://www.linkedin.com/in/aditya-shekhar-a1a126126/" class="menu_learn_more" target="_blank">LinkedIn</a>     
-            </section>
-            -->
-        </div>
-        <!--
-        <div class="display1">
-            <section class="projects">
-                <h1>Projects</h1>
-                <ul>
-                    <li><a href="https://github.com/CuriosityFTW" class="learn_more" target="_blank">Learn more</a></li>
-                    <li><a href="projects.html" class="learn_more" target="_blank">Learn more</a></li>
-                </ul>
-            </section>
-            <section class="blog">
-                <h1>Blog</h1>
-                <ul>
-                    <li><a href="https://medium.com/curiosityftw" class="learn_more" target="_blank">Learn more</a></li>
-                </ul>
-            </section>
-            <section class="linkedin">
-                <h1>LinkedIn</h1>
-                <ul>
-                    <li><a href="https://www.linkedin.com/in/aditya-shekhar-a1a126126/" class="learn_more" target="_blank">Learn more</a></li>
-                </ul>
+            <section class="right_box" id="domain_content">
+                <h2>welcome</h2>
+                <p>select a domain to see more details</p>
             </section>
         </div>
-        -->
     </main>
     
     <footer>
         <p>&copy; 2025 CuriosityFTW. All rights reserved.</p>
     </footer>
     
-    <!--
     <script>
-    document.addEventListener('DOMContentLoaded', () => {
-        const buttons = document.querySelectorAll('.category_button');
-        buttons.forEach(button => {
-            button.addEventListener('click', () => {
-                // Remove 'clicked' class from all buttons
-                buttons.forEach(btn => btn.classList.remove('clicked'));
-                // Add 'clicked' class to the clicked button
-                button.classList.add('clicked');
-            });
+        document.addEventListener('DOMContentLoaded', () => {
+          const urlParams = new URLSearchParams(window.location.search);
+          const selectedCategory = urlParams.get('selected');
+        
+          if (selectedCategory) {
+            const selectedButton = document.querySelector(
+              `.category_button[data-category="${selectedCategory}"]`
+            );
+            if (selectedButton) {
+              selectedButton.classList.add('clicked');
+            }
+            const contentFileMap = {
+            aircraft: 'project_aircraft.html',
+            aerial_robotics: 'project_aerial_robotics.html',
+            healthcare: 'project_healthcare.html',
+            additive_manufacturing: 'project_additive_manufacturing.html',
+            automotive: 'project_automotive.html'
+            };
+    
+            const rightBox = document.getElementById('domain_content');
+            const contentFile = contentFileMap[selectedCategory];
+    
+            if (rightBox && contentFile) {
+                fetch(contentFile)
+                    .then(response => {
+                        if (!response.ok) {
+                            throw new Error('Network response was not ok');
+                        }
+                    return response.text();
+                    })
+                    .then(html => {
+                        rightBox.innerHTML = html;
+                    })
+                    .catch(error => {
+                        rightBox.innerHTML = `<p>Sorry, content failed to load.</p>`;
+                        console.error('Error loading content:', error);
+                    });
+            }  
+          }
         });
-    });
-    </script>
-    -->
-    
-    <script>
-    document.addEventListener('DOMContentLoaded', () => {
-      const urlParams = new URLSearchParams(window.location.search);
-      const selectedCategory = urlParams.get('selected');
-    
-      if (selectedCategory) {
-        const selectedButton = document.querySelector(
-          `.category_button[data-category="${selectedCategory}"]`
-        );
-        if (selectedButton) {
-          selectedButton.classList.add('clicked');
-        }
-      }
-    });
     </script>
 
 </body>
