@@ -63,9 +63,11 @@
             const selectedButton = document.querySelector(
               `.category_button[data-category="${selectedCategory}"]`
             );
+              
             if (selectedButton) {
               selectedButton.classList.add('clicked');
             }
+              
             const contentFileMap = {
             aircraft: 'project_aircraft.html',
             aerial_robotics: 'project_aerial_robotics.html',
@@ -74,22 +76,25 @@
             automotive: 'project_automotive.html'
             };
     
-            const rightBox = document.getElementById('domain_content');
+            //const rightBox = document.getElementById('domain_content');
             const contentFile = contentFileMap[selectedCategory];
     
-            if (rightBox && contentFile) {
+            if (contentFile) {
                 fetch(contentFile)
                     .then(response => {
                         if (!response.ok) {
                             throw new Error('Network response was not ok');
                         }
-                    return response.text();
+                        return response.text();
                     })
                     .then(html => {
+                        const rightBox = document.getElementById('domain_content');
+                        if (rightBox) {
                         rightBox.innerHTML = html;
+                        }
                     })
                     .catch(error => {
-                        rightBox.innerHTML = `<p>Sorry, content failed to load.</p>`;
+                        //rightBox.innerHTML = `<p>Sorry, content failed to load.</p>`;
                         console.error('Error loading content:', error);
                     });
             }  
