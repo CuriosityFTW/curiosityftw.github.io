@@ -58,20 +58,24 @@
     </footer>
     
     <script>
-        document.addEventListener('DOMContentLoaded', () => {
+        document.addEventListener('DOMContentLoaded', () => 
+        {
           const urlParams = new URLSearchParams(window.location.search);
           const selectedCategory = urlParams.get('selected');
         
-          if (selectedCategory) {
+          if (selectedCategory) 
+          {
             const selectedButton = document.querySelector(
               `.category_button[data-category="${selectedCategory}"]`
             );
               
-            if (selectedButton) {
+            if (selectedButton) 
+            {
               selectedButton.classList.add('clicked');
             }
               
-            const contentFileMap = {
+            const contentFileMap = 
+            {
             aircraft: 'project_aircraft.html',
             aerial_robotics: 'project_aerial_robotics.html',
             healthcare: 'project_healthcare.html',
@@ -82,23 +86,52 @@
             const rightBox = document.getElementById('domain_content');
             const contentFile = contentFileMap[selectedCategory];
     
-            if (contentFile) {
+            if (contentFile) 
+            {
                 fetch(contentFile)
-                    .then(response => {
-                        if (!response.ok) {
+                    .then(response => 
+                    {
+                        if (!response.ok) 
+                        {
                             throw new Error('Network response was not ok');
                         }
                         return response.text();
                     })
-                    .then(html => {
+                    .then(html => 
+                    {
                         rightBox.innerHTML = html;
+                        initializeAccordion();  // this will run accordion behavior after HTML is loaded
                     })
-                    .catch(error => {
+                    .catch(error => 
+                    {
                         rightBox.innerHTML = `<p>Sorry, content failed to load.</p>`;
                         console.error('Error loading content:', error);
                     });
             }  
           }
+          // function to set up accordion behavior
+          function initializeAccordion() 
+          {
+            const headers = document.querySelectorAll('.accordion-header');
+            headers.forEach(header => 
+            {
+              header.addEventListener('click', () => 
+              {
+                const item = header.parentElement;
+                const isActive = item.classList.contains('active');
+        
+                document.querySelectorAll('.accordion-item').forEach(el => 
+                {
+                  el.classList.remove('active');
+                });
+        
+                if (!isActive) 
+                {
+                  item.classList.add('active');
+                }
+              });
+            });
+          }          
         });
     </script>
 
