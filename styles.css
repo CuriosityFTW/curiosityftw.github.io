@@ -632,25 +632,18 @@
     font-style: bold;
 }
 
+/********************************************************************* AIRCRAFT PAGE *********************************************************************/
+/*
 .project_aircraft {
-    /*font-family: 'Helvetica';*/
     background-color: white;
     color: #333;
-    /*line-height: 1.6;*/
-    /*padding: 0 15px;*/ /*comment this to remove white side box borders*/
-    /*padding-top: 30px;
-    margin-top: 15px;*/
 }
 
-/********************************************************************* AIRCRAFT PAGE *********************************************************************/
 .project_aircraft h2 {
     font-size: 2.5em;
     text-align: center;
     font-family: 'Poppins-Regular';
     color: rgb(211, 211, 280);
-    /*padding: 0;*/
-    /*margin-top: 15px;*/
-    /*margin-bottom: 10px;*/
     line-height: 0.2;
 }
 
@@ -660,5 +653,47 @@
     color: black;
     margin-top: 25px;
 }
+*/
 
-/********************************************************************* AERIAL ROBOTICS PAGE *********************************************************************/
+.accordion-item {
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-bottom: 10px;
+  background-color: #f9f9f9;
+  overflow: hidden;
+}
+
+.accordion-header {
+  padding: 12px 16px;
+  cursor: pointer;
+  font-weight: bold;
+  background-color: #e9e9e9;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.accordion-header:hover {
+  background-color: #ddd;
+}
+
+.accordion-header .arrow {
+  transition: transform 0.3s ease;
+}
+
+.accordion-item.active .arrow {
+  transform: rotate(180deg);
+}
+
+.accordion-content {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease, padding 0.3s ease;
+  padding: 0 16px;
+  background-color: #ffffff;
+}
+
+.accordion-item.active .accordion-content {
+  padding: 12px 16px;
+  max-height: 1000px; /* adjust based on expected content size */
+}
