@@ -689,7 +689,7 @@
   font-family: 'Helvetica';
   text-decoration: none;
   border: 1px solid black;
-  background-color: rgb(220, 220, 220);    
+  /*background-color: rgb(220, 220, 220);*/    
 }
 
 .accordion-item.active .accordion-header {
