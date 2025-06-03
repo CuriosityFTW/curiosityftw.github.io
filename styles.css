@@ -742,10 +742,13 @@
   transition: max-height 0.3s ease, padding 0.3s ease;
   padding: 0 15px;
   background-color: #ffffff;
+  /*border: 1px solid transparent;*/
+}
+
+.accordion-content p {
   font-family: 'Helvetica';
   color: black; /* font color */
   font-size: 1em;
-  /*border: 1px solid transparent;*/
 }
 
 .accordion-item.active .accordion-content {
@@ -753,9 +756,12 @@
   /*max-height: 1000px;*/ /* adjust based on expected content size */
   height: auto;
   overflow: visible;
+  border: 1px solid black;
+  /*margin-bottom: 15px;*/
+}
+
+.accordion-item.active .accordion-content p {
   font-family: 'Helvetica';
   color: black; /* font color */
   font-size: 1em;
-  border: 1px solid black;
-  /*margin-bottom: 15px;*/
 }
