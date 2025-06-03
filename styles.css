@@ -529,7 +529,7 @@
     justify-content: center;
     height: 100vh;*/
     text-align: center;
-    height: 340px;
+    height: 338px;
     overflow: visible;
 }
 
@@ -594,7 +594,7 @@
     /*margin-top: 20px;
     margin-bottom: 10px;*/
     border-radius: 12px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    /*box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);*/ /* uncomment to see left and right box height differences wrt content size */
     /*align-items: center;
     justify-content: center;
     height: 100vh;*/
@@ -758,7 +758,7 @@
   height: auto;
   overflow: visible;
   /*border: 1px solid black;*/ /* uncomment to see padding and margin effects */
-  margin-bottom: 15px; /* content box gap from down header upper edge; if top padding 15px & margin-bottom 50ps, 50px precedes */
+  margin-bottom: 17px; /* content box gap from down header upper edge; if top padding 15px & margin-bottom 50px, 50px precedes */
 }
 
 .accordion-item.active .accordion-content p {
