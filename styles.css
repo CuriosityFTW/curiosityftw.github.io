@@ -698,6 +698,14 @@
   border: 1px solid transparent; /* prevents layout shift */
 }
 
+.accordion-header:hover {
+  background-color: #e9e9e9;
+  color: black; /* font color */
+  font-family: 'Helvetica';
+  text-decoration: none;
+  border: 1px solid black;
+}
+
 .accordion-item.active .accordion-header {
   color: white; /* font color */
   font-family: 'Helvetica';
@@ -725,7 +733,7 @@
 
 .accordion-item.active .accordion-content {
   padding: 15px 15px;
-  max-height: 200px; /* adjust based on expected content size */
+  max-height: 100px; /* adjust based on expected content size */
   font-family: 'Helvetica';
   /*border: 1px solid white;*/
 }
