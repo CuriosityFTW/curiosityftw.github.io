@@ -717,11 +717,12 @@
   padding: 0 15px;
   background-color: #ffffff;
   font-family: 'Helvetica';
+  border: 1px solid transparent;
 }
 
 .accordion-item.active .accordion-content {
   padding: 15px 15px;
-  /*max-height: 1000px;*/ /* adjust based on expected content size */
+  max-height: 500px; /* adjust based on expected content size */
   font-family: 'Helvetica';
-  /*border: 1px solid black;*/
+  border: 1px solid white;
 }
