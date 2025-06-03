@@ -529,7 +529,7 @@
     justify-content: center;
     height: 100vh;*/
     text-align: center;
-    height: 350px;
+    height: 335px;
     overflow: visible;
 }
 
@@ -599,6 +599,8 @@
     justify-content: center;
     height: 100vh;*/
     text-align: center;
+    height: auto;
+    overflow: visible;
 }
 
 .right_box h2 {
