@@ -749,7 +749,7 @@
 }
 
 .accordion-item.active .accordion-content {
-  padding: 5px 15px;
+  padding: 0 15px;
   max-height: 1000px; /* adjust based on expected content size */
   /*height: auto;*/
   overflow: visible;
@@ -757,5 +757,5 @@
   color: black; /* font color */
   font-size: 1em;
   border: 1px solid black;
-  margin-bottom: 15px;
+  /*margin-bottom: 15px;*/
 }
