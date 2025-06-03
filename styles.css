@@ -758,7 +758,7 @@
   height: auto;
   overflow: visible;
   /*border: 1px solid black;*/ /* uncomment to see padding and margin effects */
-  margin-bottom: 17px; /* content box gap from down header upper edge; if top padding 15px & margin-bottom 50px, 50px precedes */
+  margin-bottom: 19px; /* content box gap from down header upper edge; if top padding 15px & margin-bottom 50px, 50px precedes */
 }
 
 .accordion-item.active .accordion-content p {
