@@ -753,18 +753,18 @@
 }
 
 .accordion-item.active .accordion-content {
-  padding: 5px 15px;
+  padding: 5px 15px; /* t/b l/r top padding of p from up header lower edge, bottom padding of p from down header upper edge; important */
   /*max-height: 1000px;*/ /* adjust based on expected content size */
   height: auto;
   overflow: visible;
   border: 1px solid black;
-  margin-bottom: 15px;
+  margin-bottom: 15px; /* content box gap from down header upper edge */
 }
 
 .accordion-item.active .accordion-content p {
   font-family: 'Helvetica';
   color: black; /* font color */
   font-size: 1em;
-  margin-top: 0;
-  margin-bottom: 15px;
+  margin-top: 0; /* added to top padding; not important */
+  margin-bottom: 50px;
 }
