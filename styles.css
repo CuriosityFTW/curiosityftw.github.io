@@ -529,6 +529,8 @@
     justify-content: center;
     height: 100vh;*/
     text-align: center;
+    height: auto;
+    overflow: visible;
 }
 
 .left_box h2 {
@@ -692,6 +694,8 @@
   border-radius: 8px;
   cursor: pointer;
   font-family: 'Helvetica';
+  color: black; /* font color */
+  font-size: 1em;
   /*font-weight: bold;*/
   background-color: #e9e9e9;
   display: flex;
@@ -704,6 +708,7 @@
   background-color: #e9e9e9;
   color: black; /* font color */
   font-family: 'Helvetica';
+  font-size: 1em;
   text-decoration: none;
   border: 1px solid black;
 }
@@ -711,6 +716,7 @@
 .accordion-item.active .accordion-header {
   color: white; /* font color */
   font-family: 'Helvetica';
+  font-size: 1em;
   background-color: black;
   border: 1px solid black;
 }
@@ -730,6 +736,8 @@
   padding: 0 15px;
   background-color: #ffffff;
   font-family: 'Helvetica';
+  color: black; /* font color */
+  font-size: 1em;
   /*border: 1px solid transparent;*/
 }
 
@@ -737,5 +745,7 @@
   padding: 15px 15px;
   max-height: 100px; /* adjust based on expected content size */
   font-family: 'Helvetica';
+  color: black; /* font color */
+  font-size: 1em;
   /*border: 1px solid white;*/
 }
