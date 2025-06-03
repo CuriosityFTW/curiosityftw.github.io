@@ -757,14 +757,14 @@
   /*max-height: 1000px;*/ /* adjust based on expected content size */
   height: auto;
   overflow: visible;
-  border: 1px solid black;
-  margin-bottom: 50px; /* content box gap from down header upper edge */
+  /*border: 1px solid black;*/ /* uncomment to see padding and margin effects */
+  margin-bottom: 15px; /* content box gap from down header upper edge; if top padding 15px & margin-bottom 50ps, 50px precedes */
 }
 
 .accordion-item.active .accordion-content p {
   font-family: 'Helvetica';
   color: black; /* font color */
   font-size: 1em;
-  margin-top: 0; /* added to top padding; not important */
+  margin-top: 0; /* added to top padding of content box; not important */
   /*margin-bottom: 50px;*/ /* doesn't work to add any gap */
 }
