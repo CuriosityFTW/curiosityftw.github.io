@@ -759,15 +759,3 @@
   border: 1px solid black;
   margin-bottom: 15px;
 }
-
-.accordion-item.active .accordion-content p {
-  padding: 15px 15px;
-  /*max-height: 100px;*/ /* adjust based on expected content size */
-  height: auto;
-  overflow: visible;
-  font-family: 'Helvetica';
-  color: black; /* font color */
-  font-size: 1em;
-  border: 1px solid black;
-  margin-bottom: 15px;
-}
