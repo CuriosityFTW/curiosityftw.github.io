@@ -757,11 +757,12 @@
   height: auto;
   overflow: visible;
   border: 1px solid black;
-  /*margin-bottom: 15px;*/
+  margin-bottom: 15px;
 }
 
 .accordion-item.active .accordion-content p {
   font-family: 'Helvetica';
   color: black; /* font color */
   font-size: 1em;
+  margin-bottom: 15px;
 }
