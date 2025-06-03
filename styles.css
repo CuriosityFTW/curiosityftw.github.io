@@ -753,7 +753,7 @@
 }
 
 .accordion-item.active .accordion-content {
-  padding: 15px 15px;
+  padding: 5px 15px;
   /*max-height: 1000px;*/ /* adjust based on expected content size */
   height: auto;
   overflow: visible;
