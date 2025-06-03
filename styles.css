@@ -529,7 +529,7 @@
     justify-content: center;
     height: 100vh;*/
     text-align: center;
-    height: auto;
+    height: 250px;
     overflow: visible;
 }
 
@@ -743,7 +743,9 @@
 
 .accordion-item.active .accordion-content {
   padding: 15px 15px;
-  max-height: 100px; /* adjust based on expected content size */
+  /*max-height: 100px;*/ /* adjust based on expected content size */
+  height: auto;
+  overflow: visible;
   font-family: 'Helvetica';
   color: black; /* font color */
   font-size: 1em;
