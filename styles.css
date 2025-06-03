@@ -692,7 +692,7 @@
   /*background-color: rgb(220, 220, 220);*/    
 }
 
-.accordion-item.active {
+.accordion-item.clicked {
   margin-bottom: 15px;    
 }
 
