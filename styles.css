@@ -767,7 +767,7 @@
   color: black; /* font color */
   font-size: 1em;
   text-align: left;
-  line-height: 1.5;
+  line-height: 1;
   /*margin-top: 0;*/
   /*padding: 0 10px;*/
 }
@@ -790,12 +790,12 @@
   font-family: 'Helvetica';
   color: black; /* font color */
   font-size: 1em;
-  line-height: 1.5;
+  line-height: 1;
 }
 
 .accordion-item.active .accordion-content {
-  /*padding: 8px 20px;*/ /* t/b l/r top padding of p from up header lower edge, bottom padding of p from down header upper edge; important */
-  padding: 8px 20px 0; /* t l/r b */
+  padding: 8px 20px; /* t/b l/r top padding of p from up header lower edge, bottom padding of p from down header upper edge; important */
+  /*padding: 8px 20px 0;*/ /* t l/r b */
   /*max-height: 1000px;*/ /* adjust based on expected content size */
   height: auto;
   overflow: visible;
