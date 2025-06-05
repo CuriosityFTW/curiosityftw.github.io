@@ -761,7 +761,7 @@
   /*border: 1px solid transparent;*/
 }
 
-.accordion_content_description {
+.accordion-content p {
   font-family: 'Helvetica';
   color: black; /* font color */
   font-size: 1em;
@@ -786,7 +786,7 @@
   margin-bottom: 100px; /* content box gap from down header upper edge; if top padding 15px & margin-bottom 50px, 50px precedes */
 }
 
-.accordion-item.active .accordion_content_description {
+.accordion-item.active .accordion-content p {
   font-family: 'Helvetica';
   color: black; /* font color */
   font-size: 1em;
