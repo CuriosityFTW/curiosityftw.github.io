@@ -590,7 +590,7 @@
     /*background: linear-gradient(to bottom, #d9f1ff, #f1faff);*/
     /*background: linear-gradient(to bottom, #0a103b, #1d2977, #d9f1ff);*/
     /*opacity: 0.95;*/
-    padding: 10px;
+    padding: 0; /* changed from 10 to 0 */
     /*margin-top: 20px;
     margin-bottom: 10px;*/
     border-radius: 12px;
@@ -635,7 +635,7 @@
     font-size: 1em;
     font-family: 'Helvetica';
     color: black;
-    margin-top: 15px;
+    margin-top: 5px;
 }
 
 .projects_page footer {
