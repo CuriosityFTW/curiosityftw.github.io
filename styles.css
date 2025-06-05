@@ -756,7 +756,8 @@
   max-height: 0;
   overflow: hidden;
   transition: max-height 0.3s ease, padding 0.3s ease;
-  padding: 0 30px;
+  padding: 0 40px;
+  /*margin-left: 20px;*/
   background-color: #ffffff;
   /*border: 1px solid transparent;*/
 }
@@ -778,16 +779,19 @@
 }
 
 .accordion-content ul {
+  text-align: left;
+  padding-left: 20px;
+}
+
+.accordion-content li {
   font-family: 'Helvetica';
   color: black; /* font color */
   font-size: 1em;
-  text-align: left;
   line-height: 1.5;
-  padding-left: 30px;
 }
 
 .accordion-item.active .accordion-content {
-  padding: 15px 15px; /* t/b l/r top padding of p from up header lower edge, bottom padding of p from down header upper edge; important */
+  padding: 10px 15px; /* t/b l/r top padding of p from up header lower edge, bottom padding of p from down header upper edge; important */
   /*max-height: 1000px;*/ /* adjust based on expected content size */
   height: auto;
   overflow: visible;
