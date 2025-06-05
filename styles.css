@@ -622,6 +622,23 @@
     margin-bottom: 15px;
 }
 
+.projects_intro_pic {
+    /*display: flex;*/
+    /*display: block;
+    margin: auto;
+    width: 50%;
+    height: auto;*/
+    /*justify-content: center;*/
+}
+
+.projects_intro_pic img {
+    max-height: 340px;
+    width: auto;
+    /*border-radius: 50%;*/
+    /*margin-left: 300px;*/
+    /*padding: 20px;*/
+}
+
 .projects_page footer {
     text-align: center;
     padding: 10px;
