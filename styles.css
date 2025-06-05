@@ -820,6 +820,6 @@
 
 .accordion-item.active .accordion-content li {
   text-align: left;
-  /*padding-left: 20px;
-  margin-top: 0;*/
+  /*padding-left: 20px;*/
+  margin-top: 0;
 }
