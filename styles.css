@@ -761,7 +761,7 @@
   /*border: 1px solid transparent;*/
 }
 
-.accordion-content p {
+.accordion_content_description {
   font-family: 'Helvetica';
   color: black; /* font color */
   font-size: 1em;
@@ -786,10 +786,12 @@
   margin-bottom: 100px; /* content box gap from down header upper edge; if top padding 15px & margin-bottom 50px, 50px precedes */
 }
 
-.accordion-item.active .accordion-content p {
+.accordion-item.active .accordion_content_description {
   font-family: 'Helvetica';
   color: black; /* font color */
   font-size: 1em;
   margin-top: 0; /* added to top padding of content box; not important */
   /*margin-bottom: 50px;*/ /* doesn't work to add any gap */
+  text-align: left;
+  line-height: 1.5px;
 }
