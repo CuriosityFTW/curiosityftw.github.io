@@ -769,7 +769,7 @@
   text-align: left;
   line-height: 1.5;
   /*margin-top: 0;*/
-  padding: 0 20px;
+  /*padding: 0 10px;*/
 }
 
 .accordion_content_title {
@@ -781,8 +781,8 @@
 
 .accordion-content ul {
   text-align: left;
-  padding-left: 20px;
-  margin-top: 8px;
+  /*padding-left: 20px;
+  margin-top: 8px;*/
 }
 
 .accordion-content li {
