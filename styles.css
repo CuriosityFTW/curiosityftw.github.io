@@ -783,6 +783,7 @@
   text-align: left;
   /*padding-left: 20px;
   margin-top: 8px;*/
+  list-style-position: inside; /* Makes bullets align inside the content box */
 }
 
 .accordion-content li {
@@ -819,6 +820,6 @@
 
 .accordion-item.active .accordion-content li {
   text-align: left;
-  padding-left: 20px;
-  margin-top: 0;
+  /*padding-left: 20px;
+  margin-top: 0;*/
 }
