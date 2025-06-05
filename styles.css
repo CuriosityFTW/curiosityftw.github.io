@@ -756,7 +756,7 @@
   max-height: 0;
   overflow: hidden;
   transition: max-height 0.3s ease, padding 0.3s ease;
-  padding: 0 40px;
+  /*padding: 0 40px;*/
   /*margin-left: 20px;*/
   background-color: #ffffff;
   /*border: 1px solid transparent;*/
@@ -769,6 +769,7 @@
   text-align: left;
   line-height: 1.5;
   /*margin-top: 0;*/
+  padding: 0 20px;
 }
 
 .accordion_content_title {
@@ -781,6 +782,7 @@
 .accordion-content ul {
   text-align: left;
   padding-left: 20px;
+  margin-top: 8px;
 }
 
 .accordion-content li {
@@ -791,7 +793,7 @@
 }
 
 .accordion-item.active .accordion-content {
-  padding: 10px 15px; /* t/b l/r top padding of p from up header lower edge, bottom padding of p from down header upper edge; important */
+  padding: 8px 15px; /* t/b l/r top padding of p from up header lower edge, bottom padding of p from down header upper edge; important */
   /*max-height: 1000px;*/ /* adjust based on expected content size */
   height: auto;
   overflow: visible;
