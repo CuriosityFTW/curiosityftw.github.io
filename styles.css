@@ -779,14 +779,14 @@
   font-weight: bold;
 }
 
-.accordion_content_description ul {
+.contributions_list {
   text-align: left;
   padding-top: 0;
   margin-top: 0;
   list-style-position: inside; /* Makes bullets align inside the content box */
 }
 
-.accordion_content_description li {
+.contributions_list li {
   font-family: 'Helvetica';
   color: black; /* font color */
   font-size: 1em;
@@ -815,14 +815,14 @@
   line-height: 1.5px;*/
 }
 
-.accordion-item.active .accordion_content_description ul {
+.accordion-item.active .contributions_list {
   text-align: left;
   padding-top: 0;
   margin-top: 0;
   list-style-position: inside; /* Makes bullets align inside the content box */
 }
 
-.accordion-item.active .accordion_content_description li {
+.accordion-item.active .contributions_list li {
   text-align: left;
   padding-top: 0;
   margin-top: 0;
