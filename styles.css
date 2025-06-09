@@ -790,7 +790,7 @@
   font-family: 'Helvetica';
   color: black; /* font color */
   font-size: 1em;
-  line-height: 1;
+  /*line-height: 1;*/
 }
 
 .accordion-item.active .accordion-content {
@@ -814,13 +814,13 @@
 }
 
 .accordion-item.active .accordion-content ul {
-  text-align: left;
-  /*padding-top: 0;*/
+  /*text-align: left;
+  padding-top: 0;*/
   /*margin-top: 0;*/
 }
 
 .accordion-item.active .accordion-content li {
-  text-align: left;
-  /*padding-top: 0;
+  /*text-align: left;
+  padding-top: 0;
   margin-top: 0;*/
 }
