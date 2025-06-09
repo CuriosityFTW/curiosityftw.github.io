@@ -781,7 +781,7 @@
 
 .accordion_content_description ul {
   text-align: left;
-  /*padding-left: 20px;*/
+  padding-top: 0;
   margin-top: 0;
   list-style-position: inside; /* Makes bullets align inside the content box */
 }
@@ -791,6 +791,8 @@
   color: black; /* font color */
   font-size: 1em;
   line-height: 1;
+  padding-top: 0;
+  margin-top: 0;
 }
 
 .accordion-item.active .accordion-content {
@@ -814,13 +816,18 @@
 }
 
 .accordion-item.active .accordion_content_description ul {
-  /*text-align: left;
-  padding-top: 0;*/
+  text-align: left;
+  padding-top: 0;
   margin-top: 0;
+  list-style-position: inside; /* Makes bullets align inside the content box */
 }
 
 .accordion-item.active .accordion_content_description li {
-  /*text-align: left;
+  text-align: left;
   padding-top: 0;
-  margin-top: 0;*/
+  margin-top: 0;
+  font-family: 'Helvetica';
+  color: black; /* font color */
+  font-size: 1em;
+  line-height: 1;
 }
