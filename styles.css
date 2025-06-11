@@ -756,7 +756,7 @@
   max-height: 0;
   overflow: hidden;
   transition: max-height 0.3s ease, padding 0.3s ease;
-  /*padding: 10px 20px;*/
+  padding: 0 20px;
   /*margin-left: 20px;*/
   background-color: #ffffff;
   /*border: 1px solid transparent;*/
@@ -794,7 +794,7 @@
   color: black; /* font color */
   font-size: 1em;
   line-height: 1.5;
-  padding-top: 0;
+  /*padding-top: 0;*/
   margin-top: 0;
 }
 
@@ -805,7 +805,7 @@
   height: auto;
   overflow: visible;
   /*border: 1px solid black;*/ /* uncomment to see padding and margin effects */
-  margin-bottom: 194px; /* content box gap from down header upper edge; if top padding 15px & margin-bottom 50px, 50px precedes */
+  margin-bottom: 192px; /* content box gap from down header upper edge; if top padding 15px & margin-bottom 50px, 50px precedes */
 }
 
 .accordion-item.active .accordion_content_description {
@@ -829,7 +829,7 @@
 
 .accordion-item.active .contributions_list li {
   text-align: left;
-  padding-top: 0;
+  /*padding-top: 0;*/
   margin-top: 0;
   font-family: 'Helvetica';
   color: black; /* font color */
