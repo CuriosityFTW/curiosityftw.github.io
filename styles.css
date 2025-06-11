@@ -768,8 +768,9 @@
   font-size: 1em;
   text-align: left;
   line-height: 1;
-  /*margin-top: 0;*/
+  margin-bottom: 0;
   /*padding: 0 10px;*/
+  padding-bottom: 0;
 }
 
 .accordion_content_title {
@@ -814,6 +815,8 @@
   /*margin-bottom: 50px;*/ /* doesn't work to add any gap */
   /*text-align: left;
   line-height: 1.5px;*/
+  margin-bottom: 0;
+  padding-bottom: 0;
 }
 
 .accordion-item.active .contributions_list {
