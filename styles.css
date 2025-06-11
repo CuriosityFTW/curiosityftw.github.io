@@ -770,7 +770,7 @@
   line-height: 1;
   margin-bottom: 0;
   /*padding: 0 10px;*/
-  padding-bottom: 0;
+  /*padding-bottom: 0;*/
 }
 
 .accordion_content_title {
@@ -816,7 +816,7 @@
   /*text-align: left;
   line-height: 1.5px;*/
   margin-bottom: 0;
-  padding-bottom: 0;
+  /*padding-bottom: 0;*/
 }
 
 .accordion-item.active .contributions_list {
