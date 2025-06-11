@@ -798,13 +798,13 @@
 }
 
 .accordion-item.active .accordion-content {
-  padding: 4px 20px; /* t/b l/r top padding of p from up header lower edge, bottom padding of p from down header upper edge; important */
+  padding: 10px 20px; /* t/b l/r top padding of p from up header lower edge, bottom padding of p from down header upper edge; important */
   /*padding: 8px 20px 0;*/ /* t l/r b */
   /*max-height: 1000px;*/ /* adjust based on expected content size */
   height: auto;
   overflow: visible;
   /*border: 1px solid black;*/ /* uncomment to see padding and margin effects */
-  margin-bottom: 192px; /* content box gap from down header upper edge; if top padding 15px & margin-bottom 50px, 50px precedes */
+  margin-bottom: 200px; /* content box gap from down header upper edge; if top padding 15px & margin-bottom 50px, 50px precedes */
 }
 
 .accordion-item.active .accordion_content_description {
