@@ -261,6 +261,36 @@
     padding: 0 40px 20px 40px;
 }
 
+.profile {
+    /*background: linear-gradient(rgba(0, 0, 255, 0.8), rgba(255, 255, 255, 0.8));*/
+    /*background: rgb(235, 235, 235);*/
+    background: #d9f1ff;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.profile h1 {
+    font-size: 3em;
+    text-align: center;
+    font-family: 'Poppins-Regular';
+    color: #333; /*rgb(54, 69, 79);*/
+    margin-top: 3px;
+    margin-bottom: 30px;
+}
+
+.profile ul {
+    list-style-type: none;
+    margin-bottom: 20px;
+}
+
+.profile ul li {
+    font-size: 1em;
+    font-family: 'Helvetica';
+    /*color: black;
+    font-style: bold;*/
+    text-align: center;
+}
+
 .projects {
     /*background: linear-gradient(rgba(0, 0, 255, 0.8), rgba(255, 255, 255, 0.8));*/
     /*background: rgb(235, 235, 235);*/
@@ -270,7 +300,7 @@
 }
 
 .projects h1 {
-    font-size: 4em;
+    font-size: 3em;
     text-align: center;
     font-family: 'Poppins-Regular';
     color: #333; /*rgb(54, 69, 79);*/
@@ -300,7 +330,7 @@
 }
 
 .github h1 {
-    font-size: 4em;
+    font-size: 3em;
     text-align: center;
     font-family: 'Poppins-Regular';
     color: #333; /*rgb(54, 69, 79);*/
@@ -330,7 +360,7 @@
 }
 
 .blog h1 {
-    font-size: 4em;
+    font-size: 3em;
     text-align: center;
     font-family: 'Poppins-Regular';
     color: #333; /*rgb(54, 69, 79);*/
@@ -364,7 +394,7 @@
 }
 
 .linkedin h1 {
-    font-size: 4em;
+    font-size: 3em;
     text-align: center;
     font-family: 'Poppins-Regular';
     color: #333; /*rgb(54, 69, 79);*/
