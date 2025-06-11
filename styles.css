@@ -767,7 +767,7 @@
   color: black; /* font color */
   font-size: 1em;
   text-align: left;
-  line-height: 1;
+  line-height: 1.5;
   margin-bottom: 0;
   /*padding: 0 10px;*/
   /*padding-bottom: 0;*/
@@ -792,7 +792,7 @@
   font-family: 'Helvetica';
   color: black; /* font color */
   font-size: 1em;
-  line-height: 1;
+  line-height: 1.5;
   padding-top: 0;
   margin-top: 0;
 }
@@ -813,8 +813,8 @@
   font-size: 1em;
   margin-top: 0; /* added to top padding of content box; not important */
   /*margin-bottom: 50px;*/ /* doesn't work to add any gap */
-  /*text-align: left;
-  line-height: 1.5px;*/
+  /*text-align: left;*/
+  line-height: 1.5;
   margin-bottom: 0;
   /*padding-bottom: 0;*/
 }
@@ -833,5 +833,5 @@
   font-family: 'Helvetica';
   color: black; /* font color */
   font-size: 1em;
-  line-height: 1;
+  line-height: 1.5;
 }
