@@ -213,7 +213,7 @@
 
 .about_me h2 {
     /*font-size: 2.5em;*/
-    font-size: 2em;
+    font-size: 2.1em;
     text-align: center;
     font-family: 'Poppins-Regular';
     color: rgb(211, 211, 280);
@@ -276,7 +276,7 @@
     text-align: center;
     font-family: 'Poppins-Regular';
     color: #333; /*rgb(54, 69, 79);*/
-    margin-top: 3px;
+    margin-top: 5px;
     margin-bottom: 12px;
 }
 
@@ -306,7 +306,7 @@
     text-align: center;
     font-family: 'Poppins-Regular';
     color: #333; /*rgb(54, 69, 79);*/
-    margin-top: 3px;
+    margin-top: 5px;
     margin-bottom: 12px;
 }
 
@@ -336,7 +336,7 @@
     text-align: center;
     font-family: 'Poppins-Regular';
     color: #333; /*rgb(54, 69, 79);*/
-    margin-top: 3px;
+    margin-top: 5px;
     margin-bottom: 12px;
 }
 
@@ -366,7 +366,7 @@
     text-align: center;
     font-family: 'Poppins-Regular';
     color: #333; /*rgb(54, 69, 79);*/
-    margin-top: 3px;
+    margin-top: 5px;
     margin-bottom: 12px;
     /*line-height: 1.5;*/
 }
@@ -400,7 +400,7 @@
     text-align: center;
     font-family: 'Poppins-Regular';
     color: #333; /*rgb(54, 69, 79);*/
-    margin-top: 3px;
+    margin-top: 5px;
     margin-bottom: 12px;
 }
 
@@ -499,7 +499,7 @@
 
 .gradient_text_2 {
     /*background: linear-gradient(to right, blue, purple, pink, red, orange);*/
-    background: linear-gradient(to right, blue, purple);
+    background: linear-gradient(to right, purple, light blue);
     /*background: linear-gradient(to right, #0a74da, #89cff0, #b3d9ff);*/
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
