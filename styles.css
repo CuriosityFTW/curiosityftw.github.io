@@ -116,7 +116,7 @@
     width: auto;
     border-radius: 50%; /* makes image circular */
     /*margin-left: 300px;*/
-    padding: 5px;
+    padding: 20px;
 }
 
 /*.header_items .header_text {
@@ -143,6 +143,7 @@
     font-family: 'Poppins-Regular';
     /*font-weight: 500;*/
     /*margin-top: 0;*/ /* doesn't affect spacing */
+    margin-bottom: 60px;
 }
 
 .header_text p {
@@ -486,7 +487,7 @@
     /*margin-top: 50px;*/
     /*margin-bottom: 10px;*/
     /*margin: 15px 15px 15px;*/ /*top left/right bottom*/
-    margin: 0 0 15px;
+    margin: 0 0 15px; /*top left/right bottom*/
 }
 
 /*.header_items {
