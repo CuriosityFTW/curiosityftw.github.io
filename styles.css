@@ -114,9 +114,9 @@
 .main_page header img {
     max-height: 200px;
     width: auto;
-    border-radius: 50%;
+    border-radius: 50%; /* makes image circular */
     /*margin-left: 300px;*/
-    padding: 20px;
+    padding: 5px;
 }
 
 /*.header_items .header_text {
@@ -142,7 +142,7 @@
     font-size: 4em;
     font-family: 'Poppins-Regular';
     /*font-weight: 500;*/
-    margin-top: 0;
+    /*margin-top: 0;*/ /* doesn't affect spacing */
 }
 
 .header_text p {
