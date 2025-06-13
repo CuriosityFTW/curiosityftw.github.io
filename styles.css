@@ -276,7 +276,7 @@
     font-family: 'Poppins-Regular';
     color: #333; /*rgb(54, 69, 79);*/
     margin-top: 3px;
-    margin-bottom: 15px;
+    margin-bottom: 10px;
 }
 
 .profile ul {
@@ -306,7 +306,7 @@
     font-family: 'Poppins-Regular';
     color: #333; /*rgb(54, 69, 79);*/
     margin-top: 3px;
-    margin-bottom: 30px;
+    margin-bottom: 10px;
 }
 
 .projects ul {
@@ -336,7 +336,7 @@
     font-family: 'Poppins-Regular';
     color: #333; /*rgb(54, 69, 79);*/
     margin-top: 3px;
-    margin-bottom: 30px;
+    margin-bottom: 10px;
 }
 
 .github ul {
@@ -366,7 +366,7 @@
     font-family: 'Poppins-Regular';
     color: #333; /*rgb(54, 69, 79);*/
     margin-top: 3px;
-    margin-bottom: 30px;
+    margin-bottom: 10px;
     /*line-height: 1.5;*/
 }
 
