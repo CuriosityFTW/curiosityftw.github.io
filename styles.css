@@ -212,7 +212,8 @@
 }
 
 .about_me h2 {
-    font-size: 2.5em;
+    /*font-size: 2.5em;*/
+    font-size: 2em;
     text-align: center;
     font-family: 'Poppins-Regular';
     color: rgb(211, 211, 280);
@@ -271,7 +272,7 @@
 }
 
 .profile h1 {
-    font-size: 3em;
+    font-size: 2.5em;
     text-align: center;
     font-family: 'Poppins-Regular';
     color: #333; /*rgb(54, 69, 79);*/
@@ -301,7 +302,7 @@
 }
 
 .projects h1 {
-    font-size: 3em;
+    font-size: 2.5em;
     text-align: center;
     font-family: 'Poppins-Regular';
     color: #333; /*rgb(54, 69, 79);*/
@@ -331,7 +332,7 @@
 }
 
 .github h1 {
-    font-size: 3em;
+    font-size: 2.5em;
     text-align: center;
     font-family: 'Poppins-Regular';
     color: #333; /*rgb(54, 69, 79);*/
@@ -361,7 +362,7 @@
 }
 
 .blog h1 {
-    font-size: 3em;
+    font-size: 2.5em;
     text-align: center;
     font-family: 'Poppins-Regular';
     color: #333; /*rgb(54, 69, 79);*/
@@ -395,7 +396,7 @@
 }
 
 .linkedin h1 {
-    font-size: 3em;
+    font-size: 2.5em;
     text-align: center;
     font-family: 'Poppins-Regular';
     color: #333; /*rgb(54, 69, 79);*/
@@ -497,7 +498,8 @@
 }*/
 
 .gradient_text_2 {
-    background: linear-gradient(to right, blue, purple, pink, red, orange);
+    /*background: linear-gradient(to right, blue, purple, pink, red, orange);*/
+    background: linear-gradient(to right, blue, purple);
     /*background: linear-gradient(to right, #0a74da, #89cff0, #b3d9ff);*/
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -507,6 +509,7 @@
     text-align: center;
     font-size: 4em;
     font-family: 'Poppins-Regular';
+    /*color: rgb(180, 180, 250);*/    
     /*font-weight: 500;
     margin-bottom: 10px;*/
 }
